@@ -8,14 +8,14 @@
 theme_version: 1.0.4
 
 # Site settings
-title:              Nubia
+title:              Media Sejenak
 logo:               # Logo image URL
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://nubia-jekyll.netlify.com/' # The base hostname & protocol for your site
-twitter:            https://twitter.com/aspirethemes
-facebook:           https://www.facebook.com/aspirethemes
-instagram:          https://www.instagram.com/aspirethemes
+url:                'https://www.mediasejenak.xyz/' # The base hostname & protocol for your site
+twitter:            https://twitter.com/mediasejenak
+facebook:           https://www.facebook.com/mediasejenak
+instagram:          https://www.instagram.com/mediasejenak
 
 markdown:  kramdown
 permalink: pretty
@@ -50,7 +50,7 @@ defaults:
 # Authors
 authors:
   ahmad:
-    name:     Ahmad Ajmi
+    name:     Ilham Maulana
     bio:      Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
     gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:    info@aspirethemes.com
