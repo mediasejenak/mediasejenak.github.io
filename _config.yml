@@ -36,7 +36,7 @@ exclude:
   - Gemfile.lock
 
 # Tags
-tag_page_dir:         tag
+tag_page_dir:         tag/tags
 tag_page_layout:      tag_page
 
 # Pages path
