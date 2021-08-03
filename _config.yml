@@ -18,7 +18,6 @@ facebook:           https://www.facebook.com/mediasejenak
 instagram:          https://www.instagram.com/mediasejenak
 
 markdown:  kramdown
-permalink: pretty
 paginate:  11
 sass:
   style: compressed
