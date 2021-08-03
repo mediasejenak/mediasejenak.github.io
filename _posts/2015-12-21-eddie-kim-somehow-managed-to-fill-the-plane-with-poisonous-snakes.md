@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Eddie Kim somehow managed to fill the plane with poisonous snakes
+permalink: pretty
 author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/4.jpg'
