@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Access main program. Access main security. Access main program grid
+permalink: pretty
 author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/24.jpg'
