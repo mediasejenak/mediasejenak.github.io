@@ -1,6 +1,7 @@
 ---
 layout: post
 title: It would be totally painless - they'd just slip into unconsciousness
+permalink: pretty
 author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/2.jpg'
