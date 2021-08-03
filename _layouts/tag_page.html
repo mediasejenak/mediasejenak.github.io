@@ -12,7 +12,7 @@ layout: default
   </div>
 
   <div class='o-grid js-grid'>
-    {% for post in site.tag %}
+    {% for post in site.tags[page.tag] %}
       {% include post-card.html %}
     {% endfor %}
   </div>
