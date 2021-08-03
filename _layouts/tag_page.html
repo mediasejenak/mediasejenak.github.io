@@ -12,10 +12,8 @@ layout: default
   </div>
 
   <div class='o-grid js-grid'>
-    {% for post in site.posts %}
-      {% if post.tags contains tag %}
-        {% include post-card.html %}
-      {% endif %}
+    {% for post in page.posts %}
+      {% include post-card.html %}
     {% endfor %}
   </div>
 </div>
