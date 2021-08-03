@@ -1,5 +1,6 @@
 ---
 layout: tag_page
-title: "Tag: blog"
+title: "Blog"
 tag: blog
+description: Deskripsi tag Blog
 ---
