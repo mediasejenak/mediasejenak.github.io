@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ⚡ lang='id'>
+
+{% include headAMP.html %}
+
+<body class='{% if page.url == '/' %} is-home {% endif %}'>
+
+  {% include analytics.html %}
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+</body>
+</html>
