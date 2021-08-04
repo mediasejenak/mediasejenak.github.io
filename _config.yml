@@ -17,6 +17,13 @@ twitter:            https://twitter.com/mediasejenak
 facebook:           https://www.facebook.com/mediasejenak
 instagram:          https://www.instagram.com/mediasejenak
 
+permalink: /:title/
+
+collections:
+  amp:
+    output: true
+    permalink: /amp/:title/
+
 markdown:  kramdown
 paginate:  11
 sass:
