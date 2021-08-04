@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-title: "Blog"
-tag: blog
-description: Deskripsi tag Blog
+title: "K-Pop | Media Sejenak"
+tag: K-Pop
+description: Update Berita Terkini seputar Idol Favorit Kamu
 ---
