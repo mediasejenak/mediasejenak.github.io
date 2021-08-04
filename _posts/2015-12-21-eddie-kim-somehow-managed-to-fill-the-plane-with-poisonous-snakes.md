@@ -3,7 +3,7 @@ layout: post
 title: Eddie Kim somehow managed to fill the plane with poisonous snakes
 permalink: eddie-kim-somehow
 author: ahmad
-tags: [frontpage, jekyll, blog]
+tags: [frontpage, jekyll, K-Pop]
 image: '/images/posts/4.jpg'
 ---
 
