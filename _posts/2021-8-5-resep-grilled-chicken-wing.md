@@ -82,6 +82,16 @@ Lada hitam yang baru digiling
     "calories": "265 cal",
     "fatContent": "18.39 g"
   },
+  "recipeIngredient": [
+    "2 pon sayap ayam",
+    "2 sdm Minyak sayur",
+    "1 sendok teh bubuk bawang putih",
+    "garam",
+    "Lada Hitam",
+    "1/4 Saus Pedas",
+    "2 sdm Madu",
+    "4 sdm mentega"
+  ],
   "recipeInstructions": [{
     "@type": "HowToStep",
     "name": "Memanggang Ayam",
