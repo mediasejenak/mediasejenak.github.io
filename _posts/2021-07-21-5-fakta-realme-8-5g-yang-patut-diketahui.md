@@ -2,7 +2,6 @@
 layout: post
 title: 5 Fakta Realme 8 5G yang patut diketahui
 author: ahmad
-amp: true
 artikel: true
 description: 5 Fakta seputar kekurangan dan kelebihan Realme 8 5G yang harus kamu ketahui sebelum membeli gadget ini.
 tags: [Gadget]
