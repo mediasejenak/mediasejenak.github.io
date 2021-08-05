@@ -1,11 +1,30 @@
 ---
 layout: page
 title: About
-image: '/images/pages/1.jpg'
+image: 'https://1.bp.blogspot.com/-TxRv618gMxk/YM4r3ViNs3I/AAAAAAAABDk/O2wb0kIuKTsvNlbN7ovodtSZyN0-k-OIQCLcBGAsYHQ/s0/sketch1624106818727.png'
+redirect_from:
+  - /2021/06/4-tips-saat-trip-wisata-ke-serang-untuk.html
+  - /2021/06/atlanta-hawks-vs-milwaukee-bucks-game-3-prediksi.html
+  - /2021/06/update-seputar-iphone-13-dari-desain-sampai-spek.html
+  - /2021/06/the-penthouse-3-puncaki-daftar-drama-paling-diminati.html.html
+  - /2021/07/update-baca-manga-tokyo-revengers-chapter-207-sub-indo.html
+  - /2021/06/peringati-hari-ayah-kylie-jenner-buat-kejutan-untuk-travis-scott.html
+  - /2021/07/potret-pesona-tzuyu-twice-di-comback.html
+  - /2021/07/potret-kecantikan-han-so-hee-begitu.html
+  - /2021/07/potret-pesona-momo-twice-di-comback.html
+  - /2021/06/rahasia-kemistri-jinyoung-got7-dengan-jisung.html
+  - /2021/06/5-fakta-realme-8-5g-yang-patut-diketahui.html
+  - /baca-manga-boruto-chapter-01
+  - /baca-manga-boruto-chapter-60
 ---
+## Selamat datang di Media Sejenak
 
-You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Nubia is designed for you. Nubia focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+Media Sejenak adalah sebuah platform yang menyajikan berita terkini seputar teknologi, olahraga, hiburan, dan gaya hidup.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sebuah informasi yang panjang bukanlah membosankan, pendek pun bukan berarti dangkal. Sama seperti pilihan Media Sejenak dalam memberikan informasi terkini kepada semua orang.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+Tujuan Media Sejenak adalah memberikan informasi terkini seputar Teknologi, Olahraga, Entertainment, dan Gaya Hidup bagi semua orang sebagai pembuka wawasan serta pelepas penat sejenak.
+
+Kami tidak ingin menjadi hakim didalam dunia media. Kami ingin menjadi media informasi yang sepenuhnya dapat dinikmati semua orang.
+
+Kita tidak berfokus kepada berita-berita berat, seperti politik. Kita hanya berfokus sebagai media yang menyajikan informasi yang bisa kamu nikmati sejenak untuk melepas penat.
