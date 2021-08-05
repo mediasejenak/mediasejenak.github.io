@@ -23,6 +23,7 @@ Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat
 <ol>
 <li>Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.</li>
 <li>Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna. Donec nibh massa, rutrum a sollicitudin eu.</li>
+</ol>
 
 <h2>Graphic design</h2>
 
