@@ -12,7 +12,7 @@ title:              Media Sejenak
 logo:               # Logo image URL
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://www.mediasejenak.xyz/' # The base hostname & protocol for your site
+url:                'https://www.mediasejenak.xyz' # The base hostname & protocol for your site
 twitter:            https://twitter.com/mediasejenak
 facebook:           https://www.facebook.com/mediasejenak
 instagram:          https://www.instagram.com/mediasejenak
