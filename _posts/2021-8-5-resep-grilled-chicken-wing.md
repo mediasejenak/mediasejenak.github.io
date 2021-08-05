@@ -76,6 +76,27 @@ Lada hitam yang baru digiling
   "cookTime": "PT60M", 
   "totalTime": "PT70M", 
   "recipeCategory": "entree", 
-  "recipeYield": "4"
+  "recipeYield": "4", 
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "265 cal",
+    "fatContent": "18.39 g"
+  },
+  "recipeInstructions": [{
+    "@type": "HowToStep",
+    "name": "Memanggang Ayam",
+    "text": "Panaskan oven hingga mencapai 400 ° kemudian letakkan loyang kawat di didalam oven. Siapkan mangkuk besar, masukan sayap ayam dan minyak sayur kemudian diaduk. Bumbui ayam dengan bubuk bawang putih, garam, dan merica. Pindahkan ke loyang yang sudah disiapkan.",
+    "url": "https://www.mediasejenak.xyz/resep-grilled-chicken-wing/#step1"
+  },{
+    "@type": "HowToStep",
+    "name": "Membuat Saus",
+    "text": "Untuk membuat sausnya, siapkan panci kecil. Masukan saus pedas dan madu kedalam panci (Untuk Sausnya kamu bisa menggunakan bumbu jadi barbeque atau lainya). Masak hingga mendidih kemudian masukan Mentega. Masak hingga mentega meleleh, butuh waktu kurang lebih sekitar 2 menit.",
+    "url": "https://www.mediasejenak.xyz/resep-grilled-chicken-wing/#step3"
+  },{
+    "@type": "HowToStep",
+    "name": "Campur Ayam dengan Saus",
+    "text": "Setelah Sayap ayam selsai angkat dan masukan kedalam panci saus. Aduk sebentar hingga saus merata kedalam bagian ayam. Kemudian kembalikan Ayam kedalam loyang kawat dan panggang dalam oven lagi sebentar. Cukup panggang sekitar 2 sampai 3 menit saja, kemudian angkat",
+    "url": "https://www.mediasejenak.xyz/resep-grilled-chicken-wing/#step4"
+  }]  
 }
 </script>
