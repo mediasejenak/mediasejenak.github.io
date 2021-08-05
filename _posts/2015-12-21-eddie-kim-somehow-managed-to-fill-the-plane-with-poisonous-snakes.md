@@ -5,6 +5,7 @@ author: ahmad
 amp: true
 description: Deskripsi Postingan. Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te.
 tags: [frontpage, jekyll, K-Pop]
+keyword: Nyoba Keyword 1, Nyoba Keyword 2, Nyoba Keyword 3
 image: 'https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg'
 ---
 
