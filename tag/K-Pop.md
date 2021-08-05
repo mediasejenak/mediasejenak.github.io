@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-title: "K-Pop | Media Sejenak"
+title: "K-Pop"
 tag: K-Pop
 description: Update Berita Terkini seputar Idol Favorit Kamu
 ---
