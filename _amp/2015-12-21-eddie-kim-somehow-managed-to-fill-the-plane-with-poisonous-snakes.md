@@ -4,7 +4,7 @@ title: Eddie Kim somehow managed to fill the plane with poisonous snakes
 author: ahmad
 sitemap: false
 tags: [frontpage, jekyll, K-Pop]
-image: https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg
+image: 'https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg'
 ---
 
 Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
