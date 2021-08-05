@@ -3,6 +3,7 @@ layout: post
 title: Eddie Kim somehow managed to fill the plane with poisonous snakes
 author: ahmad
 amp: true
+artikel: true
 description: Deskripsi Postingan. Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te.
 tags: [frontpage, jekyll, K-Pop]
 keyword: Nyoba Keyword 1, Nyoba Keyword 2, Nyoba Keyword 3
