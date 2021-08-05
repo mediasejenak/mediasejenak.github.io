@@ -32,6 +32,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 include:
   - _pages
