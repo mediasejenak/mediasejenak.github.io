@@ -4,6 +4,7 @@ title: Eddie Kim somehow managed to fill the plane with poisonous snakes
 author: ahmad
 sitemap: false
 tags: [frontpage, jekyll, K-Pop]
+image: https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg
 ---
 
 Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
@@ -24,8 +25,6 @@ lacinia in lorem.
 > Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana
 
 Vim te case nihil oblique, has partem interpretaris ne, ad admodum accusamus nam. Usu utinam dissentias referrentur ne, vim accusam voluptua pertinacia no. Est no posse utinam inermis, brute errem mentitum et ius, te prompta albucius quo. In pro simul soleat regione.
-
-![alt](https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg)
 
 Ne reque offendit singulis mea, ad eos ferri doming nostrud. Duis suscipit usu ut, fuisset pericula ex est, et porro prompta his. Audire definiebas voluptatibus et duo, aperiam ocurreret ad nec. Vel ad nostrud principes. Ad liber congue iracundia sed, eirmod erroribus eam te, has veniam epicurei ea.
 
