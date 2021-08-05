@@ -47,6 +47,7 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   jekyll-tagging
+  jekyll-tagging-related_posts
 
 BUNDLED WITH
    1.13.6
