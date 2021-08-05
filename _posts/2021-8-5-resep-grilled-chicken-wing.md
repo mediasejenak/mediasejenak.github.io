@@ -60,3 +60,22 @@ Lada hitam yang baru digiling
 <p id="step4">Setelah Sayap ayam selsai angkat dan masukan kedalam panci saus. Aduk sebentar hingga saus merata kedalam bagian ayam. Kemudian kembalikan Ayam kedalam loyang kawat dan panggang dalam oven lagi sebentar. Cukup panggang sekitar 2 sampai 3 menit saja, kemudian angkat</p>
 
 <p id="step5">Hot Grilled Chicken Wings atau Sayap Ayam Panggang pedas pun siap disajikan. Tambahkan sayuran untuk pelengkap dan Sajikan dengan nasi hangat.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Recipe", 
+  "name": "Resep Grilled Chicken Wing Pedas",
+  "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/classic-buffalo-wings-horizontal-279-1547506077.jpg",
+  "description": "Resep Grilled Chicken Wing Pedas, cocok untuk menu makan malam serta menu acara.",
+  "keywords": "Sayap Ayam Bakar, Grilled Chicken Wing, Resep, Ayam Panggang",
+  "author": {
+    "@type": "Person",
+    "name": "Ilham Maulana"
+  },
+  "prepTime": "PT10M",
+  "cookTime": "PT60M", 
+  "totalTime": "PT70M", 
+  "recipeCategory": "entree", 
+  "recipeYield": "4"
+}
+</script>
