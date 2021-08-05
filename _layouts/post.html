@@ -55,26 +55,26 @@ layout: default
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
   "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "description": "{{ page.description }}",
   "author": {
     "@type": "Person",
-    "name": "{{ site.name }}"
+    "name": "Ilham Maulana"
   },
   "publisher": {
     "@type": "Organization",
     "name": "{{ site.title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "url": "https://mediasejenak.xyz/apple-icon-60x60.png",
       "width": "60",
       "height": "60"
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
-    "height": "60",
-    "width": "60"
+    "url": "{{ page.image }}",
+    "height": "1200",
+    "width": "720"
   }
 }
 </script>
