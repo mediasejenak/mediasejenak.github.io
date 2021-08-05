@@ -1,5 +1,5 @@
 ---
-layout: amp
+layout: amp2
 title: Eddie Kim somehow managed to fill the plane with poisonous snakes
 author: ahmad
 description: Deskripsi Postingan. Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te.
