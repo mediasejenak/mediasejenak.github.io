@@ -7,7 +7,7 @@ artikel: true
 description: 5 Fakta seputar kekurangan dan kelebihan Realme 8 5G yang harus kamu ketahui sebelum membeli gadget ini.
 tags: [Gadget]
 keyword: Realme 8 5G, Smartphone, Realme 8 Pro, layar AMOLED, Snapdragon 720G, Mediatek Dimensity 700 5G
-image: 'https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg'
+image: 'https://1.bp.blogspot.com/-SaoBxxTXBJY/YMsnQ75tQAI/AAAAAAAABCo/bB-USvf4nSA1RZ4uLO100KQOBH_b2PHcACLcBGAsYHQ/s0/20210617_174123_0000.png'
 ---
 Kali ini kita akan membahas smartphone yang sempat viral belakangan ini, yaitu Realme 8 5G. Sebuah smartphone buatan Realme yang di gadang-gadang menjadi smartphone 5G termurah di Indonesia.
 
