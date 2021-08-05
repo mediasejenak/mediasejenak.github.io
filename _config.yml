@@ -23,6 +23,10 @@ collections:
   amp:
     output: true
     permalink: /amp/:title/
+  artikel:
+    output: true
+  resep:
+    output: true
 
 markdown:  kramdown
 paginate:  11
