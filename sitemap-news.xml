@@ -13,7 +13,7 @@ layout: null
       <news:name>Media Sejenak</news:name>
       <news:language>id</news:language>
     </news:publication>
-    <news:publication_date>{{ post.date | date_to_rfc822 | date: '%d %b %Y' }}</news:publication_date>
+    <news:publication_date>{{ page.date | date: "%Y-%m-%d" }}</news:publication_date>
       <news:title>{{ post.title | xml_escape }}</news:title>
     </news:news>
   </url>
