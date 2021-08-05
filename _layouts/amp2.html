@@ -2228,7 +2228,37 @@
         </section>
       </article>
     </main>
-
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "description": "{{ page.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Ilham Maulana"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mediasejenak.xyz/apple-icon-60x60.png",
+      "width": "60",
+      "height": "60"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image }}",
+    "height": "1200",
+    "width": "720"
+  }
+}
+</script>
     <!-- Start Footer -->
     <footer class="ampstart-footer flex flex-column items-center px3">
       <nav class="ampstart-footer-nav">
