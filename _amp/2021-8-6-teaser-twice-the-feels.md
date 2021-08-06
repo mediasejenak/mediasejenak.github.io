@@ -1,5 +1,5 @@
 ---
-layout: postAMP
+layout: amp2
 title: TWICE Merilis Teaser Singel Inggris pertama mereka "The Feels"
 author: ilham
 artikel: true
