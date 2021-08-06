@@ -1,4 +1,3 @@
-{% if site.related_posts.size >= 1 %}
 <div class='o-wrapper'>
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--full'>
@@ -9,9 +8,8 @@
   </div>
 
   <div class='o-grid js-grid'>
-    {% for related_post in site.related_posts limit: 5 %}
+    {% for post in site.posts limit:5 %}
       {% include post-card.html %}
     {% endfor %}
   </div>
 </div>
-{% endif %}
