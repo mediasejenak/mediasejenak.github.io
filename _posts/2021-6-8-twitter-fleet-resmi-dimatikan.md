@@ -3,7 +3,7 @@ layout: post
 title: Twitter Resmi Menonaktifkan fitur Fleets sekarang
 author: ilham
 artikel: true
-description: 5 Fakta seputar kekurangan dan kelebihan Realme 8 5G yang harus kamu ketahui sebelum membeli gadget ini.
+description: Twitter secara resmi mematikan fitur mirip Instagram story milik mereka, yaitu Fleets. Cari tau selengkapnya.
 tags: [Gadget]
 keyword: Twitter, Fleets, fitur Fleets sudah dinonaktifkan
 image: 'https://1.bp.blogspot.com/-bchYTK4jKs0/YQzXjUmvdPI/AAAAAAAABYc/OSTzLBSjF3UNKE-iS-2EjcJpqPihewtmgCLcBGAsYHQ/s0/20210806_133154_0000.jpg'
