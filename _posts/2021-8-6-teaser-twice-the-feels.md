@@ -29,3 +29,5 @@ Dari dua teaser tersebut masih sulit untuk para fans menebak teaser apakah itu, 
 ![Teaser TWICE English Single "The Feels" 3](https://1.bp.blogspot.com/-f1iNIhkshKQ/YQ0smQgFhxI/AAAAAAAABYs/UW7-C5RAYmsrs6IODYku9OlqQ_hz_KX8wCLcBGAsYHQ/s0/twice-800x450.jpeg)
 
 Melansir dari Soompi, untuk tanggal perilisan Singel bahasa ingris ini akan dirilis pada hari Jumat bulan September nanti.
+
+<i>Asset Photo Coursey of JYP Entertainment</i>
