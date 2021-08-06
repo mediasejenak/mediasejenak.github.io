@@ -2149,14 +2149,14 @@
 
     {% if sameTagCount >= minCommonTags %}
             <amp-img
-              src="{{ related_post.image }}"
+              src="{{ post.image }}"
               width="1280"
               height="853"
               layout="responsive"
               alt="The sandy beach walk"
               class="mb1"
             ></amp-img>
-            <h3 class="mb4 mx3"><a href="{{ related_post.url }}">{{ related_post.title }}</a></h3>
+            <h3 class="mb4 mx3"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
