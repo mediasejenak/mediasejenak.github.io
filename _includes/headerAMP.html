@@ -17,7 +17,19 @@
   <h3>Sidebar</h3>
   <button on="tap:sidebar-right.close">Close sidebar</button>
   <nav toolbar="(min-width: 784px)" toolbar-target="target-element-right">
-    {% include navigation.html %}
+    <li>
+      <a href='/'>Home</a>
+    </li>
+
+{% for page in site.pages %}
+  {% unless page.name == '404.md' %}
+    {% if page.title %}
+      <li>
+        <a href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+      </li>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
   </nav>
 </amp-sidebar>
 <label class='js-off-canvas-toggle c-off-canvas-toggle' on="tap:sidebar-right.toggle">
