@@ -15,25 +15,32 @@
 
     <div class='o-grid__col o-grid__col--1-4-s o-grid__col--3-4-l o-grid__col--full'>
       <div class='c-off-canvas-content js-off-canvas-content'>
-          <button on="tap:sidebar.close" class='c-off-canvas-toggle__icon'></button>
+        <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close' on="tap:sidebar.close">
+          <span class='c-off-canvas-toggle__icon'></span>
+        </label>
 
         <div class='o-grid'>
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-l o-grid__col--full'>
-            <amp-sidebar id="sidebar" class='c-nav-wrap' layout="nodisplay" side="right">
-              <ul class='c-nav o-plain-list'>
-                {% include navigation.html %}
-                <li class='c-nav__item'>
-                  <a class='toggle-search-button js-search-toggle' href='#' aria-label='Search'>
-                    <span class='c-nav__icon' data-icon='ei-search' data-size='s'></span>
-                  </a>
-                </li>
-              </ul>
+            <amp-sidebar id="sidebar" layout="nodisplay">
+              <nav class='c-nav-wrap'>
+                <ul class='c-nav o-plain-list'>
+                  {% include navigation.html %}
+                  <li class='c-nav__item'>
+                    <a class='toggle-search-button js-search-toggle' href='#' aria-label='Search'>
+                      <span class='c-nav__icon' data-icon='ei-search' data-size='s'></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </amp-sidebar>
           </div>
         </div>
       </div>
 
-        <button on="tap:sidebar.open" class='c-off-canvas-toggle__icon'></button>
+      <label class='js-off-canvas-toggle c-off-canvas-toggle' on="tap:sidebar.open">
+        <span class='c-off-canvas-toggle__icon'></span>
+      </label>
+
     </div>
 
   </div>
