@@ -8,7 +8,7 @@
   </div>
 
   <div class='o-grid js-grid'>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.tags[page.tag] %}
       {% include post-card.html %}
     {% endfor %}
   </div>
