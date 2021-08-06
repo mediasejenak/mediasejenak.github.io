@@ -15,15 +15,15 @@
     {% include footer.html %}
   </div>
 
-  <amp-script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}">                 </amp-script>
-  <amp-script src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}"> </amp-script>
-  <amp-script src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}">     </amp-script>
-  <amp-script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">             </amp-script>
-  <amp-script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">             </amp-script>
-  <amp-script src="{{ '/js/instafeed.min.js' | prepend: site.baseurl }}">              </amp-script>
-  <amp-script src="{{ '/js/transition.js' | prepend: site.baseurl }}">                 </amp-script>
-  <amp-script src="{{ '/js/zoom.min.js' | prepend: site.baseurl }}">                   </amp-script>
-  <amp-script src="{{ '/js/app.js' | prepend: site.baseurl }}">                        </amp-script>
+  <amp-script layout="container" src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">                 </amp-script>
+  <amp-script layout="container" src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}" sandbox="allow-forms"> </amp-script>
+  <amp-script layout="container" src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">     </amp-script>
+  <amp-script layout="container" src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">             </amp-script>
+  <amp-script layout="container" src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}" sandbox="allow-forms">             </amp-script>
+  <amp-script layout="container" src="{{ '/js/instafeed.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">              </amp-script>
+  <amp-script layout="container" src="{{ '/js/transition.js' | prepend: site.baseurl }}" sandbox="allow-forms">                 </amp-script>
+  <amp-script layout="container" src="{{ '/js/zoom.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">                   </amp-script>
+  <amp-script layout="container" src="{{ '/js/app.js' | prepend: site.baseurl }}" sandbox="allow-forms">                        </amp-script>
 </body>
 
 </html>
