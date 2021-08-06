@@ -13,27 +13,17 @@
       </div>
     </div>
 
-    <div class='o-grid__col o-grid__col--1-4-s o-grid__col--3-4-l o-grid__col--full'>
-      <div class='c-off-canvas-content js-off-canvas-content'>
-
-        <div class='o-grid'>
-          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-l o-grid__col--full'>
-            <amp-sidebar id="sidebar-left" class="sample-sidebar" layout="nodisplay" side="left">
-              <h3>Sidebar</h3>
-                <button on="tap:sidebar-left.close">Close sidebar</button>
-                <nav toolbar="(min-width: 784px)" toolbar-target="target-element-left">
-                  {% include navigation.html %}
-                </nav>
-            </amp-sidebar>
-          </div>
-        </div>
-      </div>
-
-      <label class='js-off-canvas-toggle c-off-canvas-toggle' on="tap:sidebar-left.toggle">
-        <span class='c-off-canvas-toggle__icon'></span>
-      </label>
-      <div id="target-element-left"></div>
-    </div>
+<amp-sidebar id="sidebar-right" class="sample-sidebar" layout="nodisplay" side="right">
+  <h3>Sidebar</h3>
+  <button on="tap:sidebar-right.close">Close sidebar</button>
+  <nav toolbar="(min-width: 784px)" toolbar-target="target-element-right">
+    {% include navigation.html %}
+  </nav>
+</amp-sidebar>
+<label class='js-off-canvas-toggle c-off-canvas-toggle' on="tap:sidebar-right.toggle">
+  <span class='c-off-canvas-toggle__icon'></span>
+</label>
+<div id="target-element-right"></div>
 
   </div>
 </header>
