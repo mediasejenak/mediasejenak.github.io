@@ -8,22 +8,13 @@
   {% include analytics.html %}
 
   <div class='js-off-canvas-container c-off-canvas-container'>
-    {% include header.html %}
+    {% include headerAMP.html %}
 
     {{ content }}
 
     {% include footer.html %}
   </div>
 
-  <amp-script layout="container" src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">                 </amp-script>
-  <amp-script layout="container" src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}" sandbox="allow-forms"> </amp-script>
-  <amp-script layout="container" src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">     </amp-script>
-  <amp-script layout="container" src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">             </amp-script>
-  <amp-script layout="container" src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}" sandbox="allow-forms">             </amp-script>
-  <amp-script layout="container" src="{{ '/js/instafeed.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">              </amp-script>
-  <amp-script layout="container" src="{{ '/js/transition.js' | prepend: site.baseurl }}" sandbox="allow-forms">                 </amp-script>
-  <amp-script layout="container" src="{{ '/js/zoom.min.js' | prepend: site.baseurl }}" sandbox="allow-forms">                   </amp-script>
-  <amp-script layout="container" src="{{ '/js/app.js' | prepend: site.baseurl }}" sandbox="allow-forms">                        </amp-script>
 </body>
 
 </html>
