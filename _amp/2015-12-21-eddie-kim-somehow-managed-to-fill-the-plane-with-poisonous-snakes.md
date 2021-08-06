@@ -1,40 +1,34 @@
 ---
 layout: postAMP
-title: Eddie Kim somehow managed to fill the plane with poisonous snakes
-author: ahmad
-description: Deskripsi Postingan. Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te.
-tags: [frontpage, jekyll, K-Pop]
-image: 'https://static.pexels.com/photos/6454/nature-flowers-summer-branches-large.jpg'
+title: TWICE Merilis Teaser Singel Inggris pertama mereka "The Feels"
+author: ilham
+artikel: true
+sitemap: false
+description: Girl group TWICE merilis foto teaser singel berbahasa ingris pertama mereka beberapa waktu yang lalu.
+tags: [K-Pop]
+keyword: TWICE, TWICE The Feels, BTS, BLACKPINK, Teaser TWICE The Feels
+image: 'https://1.bp.blogspot.com/-iVUeN7z2-RU/YQ0kn_dXWZI/AAAAAAAABYk/ENm1lcsWMvkyBm0zVfALb_8yrZLbM7_CQCLcBGAsYHQ/s0/IMG_20210806_190024.jpg'
 ---
+TWICE akhirnya merilis teaser dari singel berbahasa ingris pertama mereka beberapa waktu yang lalu. Teaser dari lagu yang berjudul "The Feels" ini sudah aktif dirilis sejak 2 Agustus lalu.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+Setelah dikonfirmasi pada bulan Juni lalu oleh pihak agensi, bahwa TWICE akan segera merilis singel berbahasa Inggris pertama mereka. Tanggapan baik dari para fans pun bermunculan.
 
-<p style="text-align: center;"><a href="{{ page.url | replace: '/amp', '' }}">Baca Selengkapnya</a></p>
+Tak mau kalah dari BTS dan BLACKPINK, akhirnya mereka menerbitkan lagu berbahasa Inggris juga. Dengan berkembangnya popularitas dari K-Pop, kini mereka nampaknya juga akan ikut serta dalam pemasaran lagu secara global.
 
-<div id="blur">
-<p>
-Vix dico eius nominati cu, ex zril commodo fuisset mea. Habeo adhuc audiam ius no. In quis virtute officiis has. Vix ad honestatis accommodare, quis virtute et sit, pertinax expetenda eam id. Duo an fuisset delectus dissentias, justo altera ea per.
-</p>
+Ada kemungkinan besar TWICE juga akan mempromosikan lagu "The Feels" ke pasar holliwood. Lantaran, saat mereka Comeback dengan lagu "CRY FOR ME" dan "Alcohol-Free" mereka juga melakukan promosi di beberapa acara talk show populer AS seperti Kelly Clarkson Show dan Ellen Show.
 
-<h2>Todo</h2>
-<p>
-Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat justo ligula, eget sodales purus hendrerit at.
-</p>
-<ol>
-<li>Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.</li>
-<li>Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna. Donec nibh massa, rutrum a sollicitudin eu.</li>
-</ol>
+Dimulai pada tanggal 2 Agustus lalu, TWICE merilis foto teaser yang menampilkan sebuah amplop yang tersangkut dalam sela pintu, dengan caption "Oh You Got My Attention".
 
-<h2>Graphic design</h2>
+![Teaser TWICE English Single "The Feels" 1](https://0.soompi.io/wp-content/uploads/2021/08/05210551/twice-2-800x450.jpeg)
 
-<blockquote> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana</blockquote>
-<p>
-Vim te case nihil oblique, has partem interpretaris ne, ad admodum accusamus nam. Usu utinam dissentias referrentur ne, vim accusam voluptua pertinacia no. Est no posse utinam inermis, brute errem mentitum et ius, te prompta albucius quo. In pro simul soleat regione.
-</p>
-<p>
-Ne reque offendit singulis mea, ad eos ferri doming nostrud. Duis suscipit usu ut, fuisset pericula ex est, et porro prompta his. Audire definiebas voluptatibus et duo, aperiam ocurreret ad nec. Vel ad nostrud principes. Ad liber congue iracundia sed, eirmod erroribus eam te, has veniam epicurei ea.
-</p>
-<p>
-Pri probo alterum aliquando an. Duo appetere laboramus intellegat ea, ex suas diam exerci vix. Mel simul debitis id, est nusquam fuisset mentitum in. Te mei iudico iisque.
-</p>
-</div>
+Setelah itu merekaerilis kembali foto teaser pada tanggal 4 Agustus lalu yang menampilkan amplop tersebut telah di pegang oleh tangan salah satu member mereka, dengan Caption "Uh, I'm So Curious".
+
+![Teaser TWICE English Single "The Feels" 2](https://0.soompi.io/wp-content/uploads/2021/08/05210617/twice-1-800x450.jpeg)
+
+Dari dua teaser tersebut masih sulit untuk para fans menebak teaser apakah itu, namun kini pada tanggal 6 Agustus 2021 TWICE kembali merilis foto teaser mereka yang menampilkan isi amplop bertuliskan "The Feels" lagu bahas ingris mereka, dengan keterangan "Where we going tonight".
+
+![Teaser TWICE English Single "The Feels" 3](https://1.bp.blogspot.com/-f1iNIhkshKQ/YQ0smQgFhxI/AAAAAAAABYs/UW7-C5RAYmsrs6IODYku9OlqQ_hz_KX8wCLcBGAsYHQ/s0/twice-800x450.jpeg)
+
+Melansir dari Soompi, untuk tanggal perilisan Singel bahasa ingris ini akan dirilis pada hari Jumat bulan September nanti.
+
+<i>Asset Photo Coursey of JYP Entertainment</i>
