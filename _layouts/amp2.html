@@ -7,6 +7,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% endif %}">
   <link rel="canonical" href="{{ site.url}}{{ page.url | replace: '/amp', '' }}">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   {% if page.image %}
@@ -2248,6 +2249,8 @@
         </section>
       </article>
     </main>
+
+{% if page.artikel %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -2279,6 +2282,8 @@
   }
 }
 </script>
+{% endif %}
+
     <!-- Start Footer -->
     <footer class="ampstart-footer flex flex-column items-center px3">
       <nav class="ampstart-footer-nav">
