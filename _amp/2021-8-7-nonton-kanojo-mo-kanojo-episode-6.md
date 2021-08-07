@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: amp2
 title: Kanojo Mo Kanojo Episode 6, Mirika benar-benar mencintai Naoya
 description: Spoiler dan Link Streaming nonton Anime Kanojo Mo Kanojo episode 6 Muse Indonesia. Saki dan Nagisa panik ketika tahu Mirika benar-benar mencintai Naoya.
 author: ilham
