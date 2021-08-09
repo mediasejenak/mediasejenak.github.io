@@ -109,7 +109,7 @@ body::-webkit-scrollbar-thumb {
   width: 80px;
 }
 .header__logo a {
-  text-decoration:none
+  text-decoration: none;
 }
 .header__nav {
   display: flex;
@@ -185,7 +185,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 .header__actions a {
-  text-decoration:none
+  text-decoration: none;
 }
 .header__search {
   margin-right: 30px;
