@@ -28,8 +28,6 @@ collections:
 
 markdown:  kramdown
 paginate:  11
-sass:
-  style: compressed
 
 gems:
   - jekyll-paginate
