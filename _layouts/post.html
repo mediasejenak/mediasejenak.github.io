@@ -6,7 +6,9 @@
 {% include header.html %}
 
 <section class="section section--head section--head-fixed section--gradient section--details-bg">
-		<img class="section__bg" src="{{ page.image | prepend: site.baseurl }}"/>
+                <div class="section__bg" data-bg:"{{ page.image | prepend: site.baseurl }}">
+		<img src="{{ page.image | prepend: site.baseurl }}"/>
+                </div>
 		<div class="container">
 			<!-- article -->
 			<div class="article">
