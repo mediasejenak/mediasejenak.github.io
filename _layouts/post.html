@@ -23,6 +23,7 @@
 							</ul>
                                                         <img src="{{ page.image | prepend: site.baseurl }}"/>
 							{{ content }}
+                                                        {% include disqus.html %}
 						</div>
 						<!-- end article content -->
 					</div>
@@ -62,8 +63,6 @@
 }
 </script>
 {% endif %}
-
-  {% include disqus.html %}
 
   <h3 class="interview__title" style="text-align: center;">Mungkin Kamu Suka</h3>
   {% assign maxRelated = 4 %}
