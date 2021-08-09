@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang='en'>
-
+<html lang="en">
 {% include head.html %}
 
-<body class='{% if page.url == '/' %} is-home {% endif %}'>
+<body>
+	<!-- header (hidden style) -->
+	{% include header.html %}
+	<!-- end header -->
+    
+	<!-- home -->
+	{% include featuredslide.html %}
+	<!-- end home -->
 
-  {% include analytics.html %}
+        {{ content }}
 
-  <div class='js-off-canvas-container c-off-canvas-container'>
-    {% include header.html %}
+	<!-- popular -->
+	{% include tagkpop.html %}
+	<!-- end popular -->
+  
+	<!-- footer -->
+	{% include footer.html %}
+	<!-- end footer -->
 
-    {{ content }}
-
-    {% include footer.html %}
-  </div>
-
-  <script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}">                 </script>
-  <script src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}"> </script>
-  <script src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}">     </script>
-  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">             </script>
-  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">             </script>
-  <script src="{{ '/js/instafeed.min.js' | prepend: site.baseurl }}">              </script>
-  <script src="{{ '/js/transition.js' | prepend: site.baseurl }}">                 </script>
-  <script src="{{ '/js/zoom.min.js' | prepend: site.baseurl }}">                   </script>
-  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">                        </script>
+	<!-- JS -->
+	<script src="https://nimeflix.github.io/js/jquery-3.5.1.min.js"></script>
+	<script src="https://nimeflix.github.io/js/bootstrap.bundle.min.js"></script>
+	<script src="https://nimeflix.github.io/js/owl.carousel.min.js"></script>
+	<script src="https://nimeflix.github.io/js/slider-radio.js"></script>
+	<script src="https://nimeflix.github.io/js/select2.min.js"></script>
+	<script src="https://nimeflix.github.io/js/smooth-scrollbar.js"></script>
+	<script src="https://nimeflix.github.io/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://nimeflix.github.io/js/plyr.min.js"></script>
+	<script src="https://nimeflix.github.io/js/main.js"></script>
 </body>
-
 </html>
