@@ -8,10 +8,8 @@
 							<span></span>
 							<span></span>
 						</a>
-
-						<a href="{{ site.url }}" class="header__logo">
-							<amp-img layout="fixed-height" height="50" width="auto" src="{{ site.logo }}"></amp-img>
-						</a>
+                                                
+						<h4 class="article__content"><a href="{{ site.url }}"><b>{{ site.title }}</b></a></h4>
 
 						<ul class="header__nav">
 					        <li class="header__nav-item"><a class="header__nav-link" href="{{ site.url }}">Home</a></li>
@@ -19,9 +17,7 @@
 						</ul>
 
 						<div class="header__actions">
-						<a href="{{ site.url}}{{site.baseurl}}{{ page.url | replace: '/amp', '' }}" class="header__search">
-						  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/></svg>
-						</a>
+						<p><a href="{{ site.url}}{{site.baseurl}}{{ page.url | replace: '/amp', '' }}" class="header__search">Lihat artikel asli</a></p>
 						</div>
 					</div>
 				</div>
