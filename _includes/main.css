@@ -102,6 +102,15 @@ body::-webkit-scrollbar-thumb {
   height: 80px;
   width: 100%;
 }
+.header__logo {
+  display: block;
+  margin-left: 35px;
+  height: auto;
+  width: 80px;
+}
+.header__logo a {
+  text-decoration:none
+}
 .header__nav {
   display: flex;
   flex-direction: column;
@@ -174,6 +183,9 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+.header__actions a {
+  text-decoration:none
 }
 .header__search {
   margin-right: 30px;
@@ -642,6 +654,9 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 768px) {
   .footer {
     padding: 40px 0;
+  }
+  .footer a {
+    text-decoration:none
   }
   .footer__content {
     margin-top: 80px;
