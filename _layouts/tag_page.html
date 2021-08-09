@@ -2,21 +2,10 @@
 layout: post
 ---
 
-<div class='o-wrapper'>
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--full'>
-      <div class='c-archive'>
-        <h2 class='c-archive__title'>{{ page.tag }}</h2>
-        {% if page.description %}
-        <p class='c-content'>{{ page.description }}</p>
-        {% endif %}
-      </div>
-    </div>
-  </div>
+    {% if page.description %}
+      <p>{{ page.description }}</p>
+    {% endif %}
 
-  <div class='o-grid js-grid'>
     {% for post in site.tags[page.tag] %}
       {% include post-card.html %}
     {% endfor %}
-  </div>
-</div>
