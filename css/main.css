@@ -1052,7 +1052,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   display: block;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(19,23,32,0.5) 0%, #131720 100%);
+  background: linear-gradient(180deg, rgba(19,23,32,0.5) 0%, #fff 100%);
   pointer-events: none;
 }
 .section__title {
