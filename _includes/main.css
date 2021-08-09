@@ -179,8 +179,6 @@ body::-webkit-scrollbar-thumb {
 .header__actions {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
 }
 .header__actions a {
   text-decoration: none;
