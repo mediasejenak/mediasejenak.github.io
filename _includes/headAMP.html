@@ -7,9 +7,6 @@
   <meta name='description' content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 150 }}{% else %}{{ site.description }}{% endif %}">
   <meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% endif %}">
   <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  {% if page.amp %}
-  <link rel="amphtml" href="{{site.url}}/amp{{ page.url }}">
-  {% endif %}
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
@@ -132,6 +129,7 @@
       async=""
     ></script>
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-1.0.js"></script>
 
         <style amp-custom>
 	{% include bootstrap-reboot.min.css %}
