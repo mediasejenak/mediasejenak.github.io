@@ -7,8 +7,8 @@
 {% include headerAMP.html %}
 
 <section class="section section--head section--head-fixed section--gradient section--details-bg">
-                <div class="section__bg" data-bg="{{ page.image | prepend: site.baseurl }}"></div>
-		<div class="container">
+                <amp-img layout="responsive" height="720" width="1200" src="{{ page.image | prepend: site.baseurl }}"></amp-img>				
+                <div class="container">
 			<!-- article -->
 			<div class="article">
 				<div class="row">
@@ -22,8 +22,7 @@
 								<li>{{ tag }}</li>
 								{% endfor %}
 							</ul>
-                                                        <amp-img layout="responsive" height="720" width="1200" src="{{ page.image | prepend: site.baseurl }}"></amp-img>
-							{{ content }}
+                                                        {{ content }}
 						</div>
 						<!-- end article content -->
 					</div>
