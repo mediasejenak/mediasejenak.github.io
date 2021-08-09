@@ -1,51 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
 
-{% include base_path %}
+<body>
+{% include header.html %}
 
-{% assign author = site.authors[page.author] %}
+<section class="section section--head section--head-fixed section--gradient section--details-bg">
+		<div class="section__bg" data-bg="{{ page.image | prepend: site.baseurl }}"></div>
+		<div class="container">
+			<!-- article -->
+			<div class="article">
+				<div class="row">
+					<div class="col-12 col-xl-8">
+						<!-- article content -->
+						<div class="article__content">
+							<h1>{{ page.title }}</h1>
 
-{% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
-{% endif %}
+							<ul class="list">
+								{% for tag in page.tags %}
+								<li>{{ tag }}</li>
+								{% endfor %}
+							</ul>
 
-{% include post-hero.html %}
-
-<div class='o-wrapper'>
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--2-3-m'>
-      <article class='c-post'>
-
-        <div class='c-content'>
-          {{ content }}
-        </div>
-
-        <div class='o-grid'>
-          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--3-4-l'>
-            <div class='c-tags'>
-              {% for tag in page.tags %}
-                <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--1-4-m o-grid__col--1-4-l'>
-            {% include share.html %}
-          </div>
-        </div>
-
-        <hr>
-
-        {% include disqus.html %}
-
-      </article>
-    </div>
-
-    <div class='o-grid__col o-grid__col--1-3-m'>
-        {% include sidebar.html %}
-    </div>
-  </div>
-</div>
+							{{ content }}
+						</div>
+						<!-- end article content -->
+					</div>
+			  </div>
+			</div>
 
 {% if page.artikel %}
 <script type="application/ld+json">
@@ -80,3 +62,51 @@ layout: default
 }
 </script>
 {% endif %}
+
+  <h3 class="interview__title" style="text-align: center;">Mungkin Kamu Suka</h3>
+  {% assign maxRelated = 4 %}
+  {% assign minCommonTags =  1 %}
+  {% assign maxRelatedCounter = 0 %}
+
+
+  {% for post in site.posts %}
+
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      {% include post-card.html %}
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+		</div>
+</section>
+
+{% include footer.html %}
+
+        <!-- JS -->
+	<script src="https://nimeflix.github.io/js/jquery-3.5.1.min.js"></script>
+	<script src="https://nimeflix.github.io/js/bootstrap.bundle.min.js"></script>
+	<script src="https://nimeflix.github.io/js/owl.carousel.min.js"></script>
+	<script src="https://nimeflix.github.io/js/slider-radio.js"></script>
+	<script src="https://nimeflix.github.io/js/select2.min.js"></script>
+	<script src="https://nimeflix.github.io/js/smooth-scrollbar.js"></script>
+	<script src="https://nimeflix.github.io/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://nimeflix.github.io/js/plyr.min.js"></script>
+	<script src="https://nimeflix.github.io/js/main.js"></script>
+</body>
+</html>
