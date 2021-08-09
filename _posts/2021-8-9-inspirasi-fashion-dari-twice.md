@@ -5,7 +5,7 @@ author: ilham
 artikel: true
 description: Potret fashion idol TWICE dari dulu hingga sekarang yang bisa dijadikan inspirasi dalam berpakaian.
 tags: [K-Pop]
-keyword: TWICE, TWICE The Feels, BTS, BLACKPINK, Teaser TWICE The Feels
+keyword: TWICE, Fashion, Fashion TWICE, Nayeon, Momo, Jongyeon, Sana, Jihyo, Mina, Dahyun, Chaeyoung, Tzuyu
 image: 'https://1.bp.blogspot.com/-3q9jQkn_gwg/YRDukHQPJII/AAAAAAAABZA/Z_-bLcNuHc8rlXt85xNgBppP3y32kk0ngCLcBGAsYHQ/s0/IMG_20210809_152033.jpg'
 ---
 Girl Groups K-Pop yang satu ini memang sangat cocok untuk dijadikan inspirasi dalam gaya berbusana. Para member TWICE selalu memiliki gaya berbusana yang cukup unik dan match untuk mereka.
