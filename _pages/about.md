@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 image: 'https://1.bp.blogspot.com/-TxRv618gMxk/YM4r3ViNs3I/AAAAAAAABDk/O2wb0kIuKTsvNlbN7ovodtSZyN0-k-OIQCLcBGAsYHQ/s0/sketch1624106818727.png'
 redirect_from:
