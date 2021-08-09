@@ -46,13 +46,15 @@
 }
 </script>
 
-  <style>
-    {% capture inlineCSS %}
-      {% include app.scss %}
-    {% endcapture %}
-
-    {{ inlineCSS | scssify }}
-  </style>
+        <!-- CSS -->
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/slider-radio.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/select2.min.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/magnific-popup.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/plyr.css">
+	<link rel="stylesheet" href="https://nimeflix.github.io/css/main.css">
 
   <script>
     var base_url = {{ site.baseurl | jsonify }},
