@@ -105,8 +105,6 @@ body::-webkit-scrollbar-thumb {
 .header__logo {
   display: block;
   margin-left: 35px;
-  height: auto;
-  width: 80px;
 }
 .header__logo a {
   text-decoration: none;
