@@ -9,7 +9,7 @@ theme_version: 1.0.4
 
 # Site settings
 title:              Media Sejenak
-logo:               # Logo image URL
+logo:               https://www.mediasejenak.xyz/mslogo.png
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://www.mediasejenak.xyz' # The base hostname & protocol for your site
