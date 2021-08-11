@@ -2,7 +2,7 @@
 layout: post
 title: TWICE Merilis Teaser Singel Inggris pertama mereka "The Feels"
 author: ilham
-artikel: true
+news: true
 amp: true
 description: Girl group TWICE merilis foto teaser singel berbahasa ingris pertama mereka beberapa waktu yang lalu.
 tags: [K-Pop]
