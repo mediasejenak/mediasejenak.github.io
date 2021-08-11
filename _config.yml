@@ -25,6 +25,8 @@ collections:
     permalink: /amp/:title/
   artikel:
     output: true
+  news:
+    output: true
 
 markdown:  kramdown
 paginate:  11
