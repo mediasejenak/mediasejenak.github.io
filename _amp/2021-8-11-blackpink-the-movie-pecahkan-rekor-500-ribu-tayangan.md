@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: amp2
 title: Blackpink The Movie Undur Rilis di Indonesia karena PPKM
 author: ilham
 news: true
