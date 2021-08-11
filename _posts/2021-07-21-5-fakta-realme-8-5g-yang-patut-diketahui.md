@@ -2,7 +2,7 @@
 layout: post
 title: 5 Fakta Realme 8 5G yang patut diketahui
 author: ilham
-artikel: true
+news: true
 description: 5 Fakta seputar kekurangan dan kelebihan Realme 8 5G yang harus kamu ketahui sebelum membeli gadget ini.
 tags: [Gadget]
 keyword: Realme 8 5G, Smartphone, Realme 8 Pro, layar AMOLED, Snapdragon 720G, Mediatek Dimensity 700 5G
