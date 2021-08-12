@@ -41,8 +41,8 @@
       "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
   },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "datePublished": "{{ page.time }}",
-  "dateModified": "{{ page.modif }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
+  "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
   "description": "{{ page.description }}",
   "author": {
     "@type": "Person",
@@ -78,8 +78,8 @@
       "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
   },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "datePublished": "{{ page.time }}",
-  "dateModified": "{{ page.modif }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
+  "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
   "description": "{{ page.description }}",
   "author": {
     "@type": "Person",
