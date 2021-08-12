@@ -36,10 +36,13 @@
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+  "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "datePublished": "{{ page.time }}",
+  "dateModified": "{{ page.modif }}",
   "description": "{{ page.description }}",
   "author": {
     "@type": "Person",
@@ -75,8 +78,8 @@
       "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
   },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "datePublished": "{{ page.time }}",
+  "dateModified": "{{ page.modif }}",
   "description": "{{ page.description }}",
   "author": {
     "@type": "Person",
