@@ -5,6 +5,7 @@ author: ilham
 news: true
 amp: true
 time: 2021-08-11T00:00:00+07:00
+modif: 2021-08-11T00:00:00+07:00
 description: Film Dokumentari BLACKPINK The Movie pecahkan rekor 500 ribu penonton dalam waktu 5 hari di seluruh negara.
 tags: [K-Pop]
 keyword: BLACKPINK, Blackpink The Movie, PPKM, COVID-19, Film, Dokumentari
