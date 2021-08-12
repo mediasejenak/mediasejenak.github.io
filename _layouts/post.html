@@ -38,7 +38,7 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ page.url | replace:'index.html' | prepend: site.url }}"
+      "@id": "{{ page.url | prepend: site.url }}"
   },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
   "datePublished": "{{ page.date }}",
@@ -75,7 +75,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ page.url | replace:'index.html' | prepend: site.url }}"
+      "@id": "{{ page.url | prepend: site.url }}"
   },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
   "datePublished": "{{ page.date }}",
