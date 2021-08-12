@@ -1,11 +1,10 @@
 ---
+date: 2021-08-06 07:00
 layout: post
 title: TWICE Merilis Teaser Singel Inggris pertama mereka "The Feels"
 author: ilham
 news: true
 amp: true
-time: 2021-08-06T00:00:00+07:00
-modif: 2021-08-06T00:00:00+07:00
 description: Girl group TWICE merilis foto teaser singel berbahasa ingris pertama mereka beberapa waktu yang lalu.
 tags: [K-Pop]
 keyword: TWICE, TWICE The Feels, BTS, BLACKPINK, Teaser TWICE The Feels
