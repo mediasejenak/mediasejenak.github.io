@@ -3,6 +3,7 @@ layout: post
 title: Twitter Resmi Menonaktifkan fitur Fleets sekarang
 author: ilham
 news: true
+time: 2021-08-11T00:00:00+07:00
 description: Twitter secara resmi mematikan fitur mirip Instagram story milik mereka, yaitu Fleets. Cari tau selengkapnya.
 tags: [Gadget]
 keyword: Twitter, Fleets, fitur Fleets sudah dinonaktifkan
