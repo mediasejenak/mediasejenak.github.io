@@ -4,7 +4,6 @@ title: Resep Grilled Chicken Wing Pedas
 author: ilham
 description: Resep Grilled Chicken Wing Pedas, cocok untuk menu makan malam serta menu acara.
 tags: [Food]
-time: 2021-08-05T00:00:00+07:00
 keyword: Sayap Ayam Bakar, Grilled Chicken Wing, Resep, Ayam Panggang
 image: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/classic-buffalo-wings-horizontal-279-1547506077.jpg'
 ---
