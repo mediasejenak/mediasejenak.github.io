@@ -1,5 +1,5 @@
 ---
-date: 2021-08-11 07:00
+date: 2021-08-11 07:20:00 +07:00
 layout: post
 title: Blackpink The Movie Undur Rilis di Indonesia karena PPKM
 author: ilham
