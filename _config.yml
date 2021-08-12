@@ -18,7 +18,7 @@ facebook:           https://www.facebook.com/mediasejenak
 instagram:          https://www.instagram.com/mediasejenak
 timezone:           Asia/Jakarta
 
-permalink: /:title/
+permalink: /:title
 
 collections:
   amp:
