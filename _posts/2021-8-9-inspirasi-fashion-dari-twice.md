@@ -3,7 +3,7 @@ layout: post
 title: Inspirasi Fashion dari TWICE dulu hingga sekarang
 author: ilham
 news: true
-time: 2021-08-11T00:00:00+07:00
+time: 2021-08-09T00:00:00+07:00
 description: Potret fashion idol TWICE dari dulu hingga sekarang yang bisa dijadikan inspirasi dalam berpakaian.
 tags: [K-Pop]
 keyword: TWICE, Fashion, Fashion TWICE, Nayeon, Momo, Jongyeon, Sana, Jihyo, Mina, Dahyun, Chaeyoung, Tzuyu
