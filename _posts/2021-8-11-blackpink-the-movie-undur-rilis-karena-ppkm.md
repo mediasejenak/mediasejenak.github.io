@@ -5,7 +5,7 @@ title: Blackpink The Movie Undur Rilis di Indonesia karena PPKM
 author: ilham
 news: true
 amp: true
-redirect_from: /amp/blackpink-the-movie-pecahkan-rekor-500-ribu-tayangan/
+redirect_from: /blackpink-the-movie-pecahkan-rekor-500-ribu-tayangan/
 description: Film Dokumentari BLACKPINK The Movie pecahkan rekor 500 ribu penonton dalam waktu 5 hari di seluruh negara.
 tags: [K-Pop]
 keyword: BLACKPINK, Blackpink The Movie, PPKM, COVID-19, Film, Dokumentari
