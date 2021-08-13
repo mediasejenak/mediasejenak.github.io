@@ -5,7 +5,8 @@ title: Trailer Terbaru Film Fate/Grand Order Finale Singularity Telah Terbit
 author: ilham
 news: true
 sitemap: false
-redirect_from: /amp/trailer-baru-film-fate-grand-order-finale/
+redirect_from: 
+               - /amp/trailer-baru-film-fate-grand-order-finale/
 description: Trailer Film Fate/Grand Order Final Singularity The Temple of Time Solomon telah dirilis. Lihat Cuplikannya disini.
 tags: [Anime]
 keyword: Fate/Grand Order, Film, Anime, Fate/Stay Night Haven Feel III, Fate/Grand Order Final Singularity The Temple of Time Solomon
