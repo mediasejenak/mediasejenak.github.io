@@ -1,5 +1,5 @@
 ---
-date: 2021-08-06 07:00
+date: 2021-08-06 07:20:00 +07:00
 layout: post
 title: TWICE Merilis Teaser Singel Inggris pertama mereka "The Feels"
 author: ilham
