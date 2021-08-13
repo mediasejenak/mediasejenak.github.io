@@ -23,7 +23,7 @@ permalink: /:title
 collections:
   amp:
     output: true
-    permalink: /amp/:title/
+    permalink: /amp/:title
   artikel:
     output: true
   news:
