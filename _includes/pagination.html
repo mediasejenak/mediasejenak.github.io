@@ -1,7 +1,7 @@
 <div class="col-12 interview">
-<div class="interview__title">
+<div class="interview__title" style="text-align: center;">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}"><b>Previous</b></a>
+    <a href="{{ paginator.previous_page_path }}" style="color: #2f80ed;">Previous</a>
   {% else %}
     <span>Previous</span>
   {% endif %}
@@ -9,7 +9,7 @@
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}"><b>Next</b></a>
+    <a href="{{ paginator.next_page_path }}" style="color: #2f80ed;">Next</a>
   {% else %}
     <span>Next</span>
   {% endif %}
