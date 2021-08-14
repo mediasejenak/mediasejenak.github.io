@@ -1,5 +1,5 @@
 ---
-date: 2021-08-14 11:00:00 +07:00
+date: 2021-08-14 20:57:00 +07:00
 layout: post
 title: Kolaborasi Uniqlo dengan Demon Slayer kembali rilis akhir agustus
 author: ilham
