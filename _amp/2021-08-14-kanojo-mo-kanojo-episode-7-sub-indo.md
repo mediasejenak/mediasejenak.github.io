@@ -1,6 +1,6 @@
 ---
 date: 2021-08-14 11:00:00 +07:00
-layout: post
+layout: amp2
 title: Recap & Link Nonton Kanojo mo Kanojo Episode 7, Membangkitkan Hawa Nafsu Naoya
 author: ilham
 news: true
