@@ -1,10 +1,10 @@
 ---
 date: 2021-08-14 11:00:00 +07:00
-layout: post
+layout: amp2
 title: Kolaborasi Uniqlo dengan Demon Slayer kembali rilis akhir agustus
 author: ilham
 news: true
-amp: true
+sitemap: false
 description: Kolaborasi dari Uniqlo dengan Demon Slayer Kimetsu No Yaiba kembali rilis akhir agustus nanti. Desain baju terbaru dari kolaborasi dapat dilihat disini.
 tags: [Anime]
 keyword: Uniqlo, Kimetsu No Yaiba, Demon Slayer, Tanjiro, Nezuko, Zenitsu, Inosuke, Giyu Tomioka, Rengoku Kyojuro, Sanemi Sinazugawa, Obonai Iguro, Mitsuri Kanroji, Gyomei Himajima, Tangen Uzui, Muichiro Tokito, Shinobu Kocho
