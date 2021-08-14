@@ -15,6 +15,7 @@ layout: null
     </news:publication>
     <news:publication_date>{{ post.date | date: "%Y-%m-%d" }}</news:publication_date>
       <news:title>{{ post.title | xml_escape }}</news:title>
+      <news:keywords>{{ post.keyword | xml_escape }}</news:keywords>
     </news:news>
   </url>
 {% endfor %}
