@@ -30,7 +30,7 @@ collections:
     output: true
 
 markdown:  kramdown
-paginate:  11
+paginate:  5
 
 gems:
   - jekyll-paginate
