@@ -16,10 +16,27 @@ Nampaknya mereka akan mirilis lebih dari 10 desain baju baru yang menampilkan il
 
 Desain dari kaos tersebut juga diklaim mereka akan menyenangkan para penggemar Demon Slayer. Beberapa desain akan menampilkan karakter utama yaitu Tanjiro dan beberapa karakter lain seperti Nezuko, Zenitsu, dan Inosuke.
 
+{% raw %}
+<div class="section__carousel-wrap">
+<div class="owl-carousel">
+<img alt="" border="0" data-original-height="786" data-original-width="786" src="https://1.bp.blogspot.com/-QY4FsTRfj-s/YRfM3l93MJI/AAAAAAAABaE/89I2fFcjP8AYlTvxr1xh3NUHwJVIxqQZwCLcBGAsYHQ/s0/goods_440694_sub13.webp"/>
+<img alt="" border="0" data-original-height="786" data-original-width="786" src="https://1.bp.blogspot.com/-Y-LWy7dgNvU/YRfM3oEV_fI/AAAAAAAABaI/CugbgtntMvQiPBgchy0-1dU4MInaxty7QCLcBGAsYHQ/s0/goods_440882_sub13.webp"/>
+</div>
+</div>
+{% endraw %}
+
 Selain itu, mereka juga nampaknya merilis kembali desain kaos yang menampilkan para "Hashira" yang merupakan sebutan dari beberapa karakter terkuat dalam seri manga tersebut. Seperti Giyu Tomioka, Rengoku Kyojuro, Sanemi Sinazugawa, Obonai Iguro, Mitsuri Kanroji, Gyomei Himajima, Tangen Uzui, Muichiro Tokito, dan Shinobu Kocho.
 
 Dalam desainnya sendiri ada beberapa desain yang menarik seperti versi Zenitsu dan Giyu Tomioka yang mengusun tema Vintage. Sementara itu, untuk varian anak menampilkan desain-desain yang lucu dengan alur warna pastel seperti pink dan lainya. Selain itu, ukuran kaos XXS hingga 4XL akan ditawarkan oleh Uniqlo untuk dapat dinikmati semua orang.
 
 Tanggal rilis dari seri kolaborasi ini akan berada di tanggal 23 Agustus 2021, dengan harga kaos pria dan wanita di kisaran Rp.199.000 dan kaos anak di harga kisaran Rp.129.000 yang akan tersedia di seluruh Uniqlo di Indonesia. Untuk melihat seluruh koleksinya kamu bisa mengunjungi situs <a href="https://www.uniqlo.com/id/id/spl/ut-collection/demon-slayer" target="_blank" rel="nofollow">Uniqlo</a>.
+
+{% raw %}
+<div class="section__carousel-wrap">
+<div class="owl-carousel">
+<img alt="" border="0" data-original-height="786" data-original-width="786" src="https://1.bp.blogspot.com/-BTSw0h8qgxc/YRfOBfmzibI/AAAAAAAABaQ/X9fY04Ls9dQ6M11NqkYg3mWQN_o433wEgCLcBGAsYHQ/s0/goods_442570_sub13.webp"/>
+<img alt="" border="0" data-original-height="786" data-original-width="786" src="https://1.bp.blogspot.com/-QQth2Cd8juM/YRfOBRQTk1I/AAAAAAAABaU/7tXO2Ea97vALzERvLIV9jqRDlnOp8-RqgCLcBGAsYHQ/s0/goods_442570_sub14.webp"/></div>
+</div>
+{% endraw %}
 
 Bagaimana pendapatmu mengenai kolaborasi Uniqlo dengan Demon Slayer: Kimetsu No Yaiba ini?. Berikan di kolom komentar dibawah yuk!.
