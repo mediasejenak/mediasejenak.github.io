@@ -15,6 +15,7 @@ layout: null
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
+        <media:thumbnail url="{{ post.image | xml_escape }}" height="720" width="1200"/>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 | date: '%d %b %Y' }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
