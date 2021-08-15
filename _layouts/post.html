@@ -117,8 +117,8 @@
   },{
     "@type": "WebPage", 
     "position": 2, 
-    "name": "{{ page.tag }}",
-    "item": "https://www.mediasejenak.xyz/tag/{{ page.tag }}"  
+    "name": "{% for tag in page.tags %}{{ tag }}{% endfor %}",
+    "item": "https://www.mediasejenak.xyz/tag/{% for tag in page.tags %}{{ tag }}{% endfor %}"  
   },{
     "@type": "WebPage", 
     "position": 3, 
