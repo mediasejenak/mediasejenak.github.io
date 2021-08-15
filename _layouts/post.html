@@ -123,7 +123,7 @@
     "@type": "WebPage", 
     "position": 3, 
     "name": "{{ page.title }}",
-    "item": "{{ page.url }}"  
+    "item": "{{ page.url | prepend: site.url }}"  
   }]
 }
 </script>
