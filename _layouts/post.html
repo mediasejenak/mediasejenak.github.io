@@ -110,17 +110,17 @@
   "@context": "https://schema.org/", 
   "@type": "BreadcrumbList", 
   "itemListElement": [{
-    "@type": "WebSite", 
+    "@type": "ListItem", 
     "position": 1, 
     "name": "Beranda",
     "item": "https://www.mediasejenak.xyz/"  
   },{
-    "@type": "WebPage", 
+    "@type": "ListItem", 
     "position": 2, 
     "name": "{% for tag in page.tags %}{{ tag }}{% endfor %}",
     "item": "https://www.mediasejenak.xyz/tag/{% for tag in page.tags %}{{ tag }}{% endfor %}"  
   },{
-    "@type": "WebPage", 
+    "@type": "ListItem", 
     "position": 3, 
     "name": "{{ page.title }}",
     "item": "{{ page.url | prepend: site.url }}"  
