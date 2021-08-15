@@ -105,6 +105,29 @@
 </script>
 {% endif %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "WebSite", 
+    "position": 1, 
+    "name": "Beranda",
+    "item": "https://www.mediasejenak.xyz/"  
+  },{
+    "@type": "WebPage", 
+    "position": 2, 
+    "name": "{{ page.tag }}",
+    "item": "https://www.mediasejenak.xyz/tag/{{ page.tag }}"  
+  },{
+    "@type": "WebPage", 
+    "position": 3, 
+    "name": "{{ page.title }}",
+    "item": "{{ page.url }}"  
+  }]
+}
+</script>
+
   <h3 class="interview__title" style="text-align: center;">Mungkin Kamu Suka</h3>
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
