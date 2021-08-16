@@ -28,6 +28,8 @@ collections:
     output: true
   news:
     output: true
+  stories:
+    output: true
 
 markdown:  kramdown
 paginate:  5
