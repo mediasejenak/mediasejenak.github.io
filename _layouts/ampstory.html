@@ -195,21 +195,18 @@
 
 {% endfor %}
 
-<amp-analytics type="googleanalytics">
-  <script type="application/json">
-  {
-    "vars": {
-      "account": "UA-190306457-2"
-    },
-    "triggers": {
-      "trackPageview": {
-        "on": "visible",
-        "request": "pageview"
-      }
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "UA-190306457-2",
+    "config" : {
+      "UA-190306457-2": { "groups": "default" }
     }
   }
-  </script>
-  </amp-analytics>
+}
+</script>
+</amp-analytics>
 
       <!-- Bookend -->
       <amp-story-bookend src="/bookend.json" layout="nodisplay"></amp-story-bookend>
