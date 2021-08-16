@@ -26,13 +26,8 @@
 				<div class="col-6 col-md-4 col-lg-3 col-xl-2 order-2 order-lg-3 order-md-4 order-xl-4">
 					<h6 class="footer__title">More info</h6>
 					<ul class="footer__nav">
-					  {% for page in site.pages %}
-              {% unless page.name == '404.md' %}
-                {% if page.title %}
-						      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-						    {% endif %}
-              {% endunless %}
-            {% endfor %}
+			                <li><a href="https://www.mediasejenak.xyz/about.html">About</a></li>
+			                <li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,8 +36,8 @@
 				<div class="col-12">
 					<div class="footer__content">
 						<div class="footer__links">
-							<a href="privacy.html">Privacy policy</a>
-							<a href="privacy.html">Terms and conditions</a>
+							<a href="https://www.mediasejenak.xyz/privacy-policy.html">Privacy policy</a>
+							<a href="#">Terms and conditions</a>
 						</div>
 						<small class="footer__copyright">© {{ site.title }}, 2021. Created by Dmitry Volkov</a>.</small>
 					</div>
