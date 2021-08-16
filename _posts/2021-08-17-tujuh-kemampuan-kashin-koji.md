@@ -51,9 +51,9 @@ Fakta tersebyt juga di kuatkan oleh Kawaki pada saat melawan Boro. Ia berkata ka
 
 ## 4. Kashin Koji lebih muda dari Jiraya
 
-<img src="https://static.wikia.nocookie.net/naruto/images/0/08/Koji_Kashin_Parte_III_Manga.png/revision/latest?cb=20180108195642&path-prefix=es"/>
+<img src="https://dafunda.com/wp-content/uploads/2020/07/Teknik-Jiraiya-Yang-Digunakan-Kashin-Koji.jpg"/>
 
-<i>Sumber Gambar: naruto.fandom.com</i>
+<i>Sumber Gambar: dafunda.com</i>
 
 Memang tidak dipungkiri lagi Jiraya merupakan Shinobi yang sangat terampil, namun pada seri Naruto ia telah melewati masa-masa emasnya. Lantaran ia sudah berumur cukup tua ketika ia melawan Pain. Layaknya rekan timnya yang lain yaitu Tsunade dan juga Orochimaru.
 
@@ -79,9 +79,9 @@ Namun hal tersebut tidak berarti bagi Koji, ia dapat melakukan Mode Sage dengan 
 
 ## 7. Kashin Koji Memiliki Ninjutsu Ruang dan Waktu
 
-<img src="https://static.wikia.nocookie.net/naruto/images/b/b0/Kashin_Koji_HD.png/revision/latest?cb=20210621005805&path-prefix=es"/>
+<img src="https://nerds4life.com/wp-content/uploads/2021/01/Boruto-Episode-181-Release-Date-Spoilers-Kashin-Koji-is-Finally-Introduced-in-the-Anime-Series-scaled-1-1024x576.jpg"/>
 
-<i>Sumber Gambar: naruto.fandom.com</i>
+<i>Sumber Gambar: nerds4life.com</i>
 
 Kashin Koji memiliki Jutsu Ruang dan Waktu, hal ini dibuktika ketika dirinya dapat dengan mudah pergi dan kembali dari tempat disembunyikanya Ekor 10. Tak hanya itu, dalam Jutsu Pemanggil nampaknya Kashin Koji memiliki keterampilan yang lebih dibanding Jiraya.
 
