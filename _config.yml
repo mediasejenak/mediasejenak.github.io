@@ -30,6 +30,7 @@ collections:
     output: true
   stories:
     output: true
+    permalink: /story/:title
 
 markdown:  kramdown
 paginate:  5
