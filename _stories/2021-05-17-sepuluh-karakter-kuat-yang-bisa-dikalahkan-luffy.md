@@ -39,5 +39,5 @@ pages:
    bottom: <h1>10. Akainu</h1>
  - background: https://i.pinimg.com/736x/26/6e/ef/266eefcda4db26771f6b625969988351.jpg
    layout: thirds
-   bottom: <h3><a href="https://www.mediasejenak.xyz/">Baca Konten Lainya di Media Sejenak</a></h3>
+   bottom: <h1><a href="https://www.mediasejenak.xyz/">Cek Konten Lainya</a></h1>
 ---
