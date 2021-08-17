@@ -14,7 +14,7 @@ Akhirnya pertempuran besar antara Kanto Manji, Brahman dan Rokuhara Tandai akan 
 
 Sebelum kita mulai merecap Chapter 218 ini, penulis ingin memberikan <b>peringatan spoiler</b> bagi para pembaca, jika kamu ingin langsung membaca manga Tokyo Revengers Chapter 18 ini, kamu bisa loncat ke akhir artikel atau tekan link <a href="#link-baca-manga-tokyo-revengers-chapter-218">disini</a> untuk Link Baca Manga Gratisnya.
 
-<amp-img layout="responsive" alt="Recap & Link Baca Tokyo Revengers Chapter 218, Pertempuran Besar Segera Dimulai" height="780" width="1200" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207017/20210817_202904_0000_valwwj.jpg"/>
+<amp-img layout="responsive" alt="Recap & Link Baca Tokyo Revengers Chapter 218, Pertempuran Besar Segera Dimulai" height="780" width="1200" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207017/20210817_202904_0000_valwwj.jpg"></amp-img>
 
 Mari kita mulai dari awal mula panel yang menampilkan seorang pria tua berjas abu-abu yang sedang membicarakan tentang penggunaan gangster untuk mengembangkan bisnisnya. Ia terlihat sedang berdiskusi dengan seseorang yang menaruh kakinya di atas meja.
 
@@ -22,7 +22,7 @@ Ketika beralih ke panel selanjutnya, kita langsung diperlihatkan seseorang yang 
 
 Nampaknya pria tua tersebut berniat menggunakan kekuatan Brahman untuh kebutuhan bisnisnya, dari sini kita juga dapat mengetahui kalau Brahman bukan hanya gang biasa yang di isi oleh anak-anak yang suka bertengkar, melainkan menyerupai geng mafia yang berfondasi dari bisnis.
 
-<amp-img layout="responsive" alt="Tokyo Revengers Chapter 218 English 1" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207070/002_kj6bfc.png"/>
+<amp-img layout="responsive" alt="Tokyo Revengers Chapter 218 English 1" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207070/002_kj6bfc.png"></amp-img>
 
 Saat pria tua tersebut menanyakan apakah mereka mau berbisnis denganya, Senju berkata kalau Brahman tidak memiliki pilihan lain. Pada akhirnya mereka bersepakat, namun ketika pria tua tersebut mengatakan kalau mereka akhirnya benar-benar bekerja sama, Senju menggebrak meja sambil berteriak "Namun". Nampaknya ia memiliki persyaratan sendiri mengenai kesepakatan yang mereka buat.
 
@@ -52,9 +52,9 @@ Senju pun memanggil Takemichi untuk turun ke arena, kemudian ia menyambut Takemi
 
 Setelah itu, pengumuman kedua yang disampaikan oleh Kawaragi Senju sangat mengagetkan, ia memberi tahu para anggota Brahman bahwa pada tanggal 14 Juli nanti mereka akan berperang melawan Kanto Manji serta Rokuhara Tandai. Yang berarti perang yang disampaikan oleh Kawaragi Senju merupakan pertempuran besar antara tiga geng penguasa Tokyo dalam perebutan tahta geng terkuat.
 
-<amp-img layout="responsive" alt="the war is begin, Tokyo Revengers Chapter 218" height="897" width="1300" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207073/014_maratf.png"/>
+<amp-img layout="responsive" alt="the war is begin, Tokyo Revengers Chapter 218" height="897" width="1300" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207073/014_maratf.png"></amp-img>
 
-<amp-img layout="responsive" alt="The war is begin, Tokyo Revenvers Chapter 218" height="900" width="1300" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207196/015_vn5vb8.png"/>
+<amp-img layout="responsive" alt="The war is begin, Tokyo Revenvers Chapter 218" height="900" width="1300" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629207196/015_vn5vb8.png"></amp-img>
 
 Setelah Senju berteriak dan membangkitkan semangat para pengikutnya, panel berubah ke arah Takemichi yang sedang mengenakan jaket Brahman. Ia juga berbicara didalam hati "Akhirnya kita akan bertemu dengan Mikey".
 
