@@ -11,7 +11,7 @@
                   {% for stories in site.stories limit:5 %}
 		  <div class="home__card">
 	            <a href="{{ stories.url }}">
-		      <img src="{{ stories.background }}" alt="{{ stories.title }}">
+		      <img src="{{ stories.cover.background }}" alt="{{ stories.title }}">
 		    </a>
 		    <div>
 		      <h2 style="color: white;">{{ stories.title }}</h2>
