@@ -17,6 +17,7 @@ redirect_from:
   - /baca-manga-boruto-chapter-01
   - /baca-manga-boruto-chapter-60
   - /style-guide.html
+  - /5-fakta-realme-8-5g-yang-patut-diketahui
 ---
 ## Selamat datang di Media Sejenak
 
