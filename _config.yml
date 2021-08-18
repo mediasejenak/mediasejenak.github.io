@@ -10,7 +10,7 @@ theme_version: 1.0.4
 # Site settings
 title:              Media Sejenak
 logo:               https://www.mediasejenak.xyz/mslogo.png
-description:        Thoughts, Stories and Ideas
+description:        Media Sejenak merupakan platform media hiburan yang menyajikan konten-konten seputar dunia hiburan terkait Film, Anime, Music, dan lainya.
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://www.mediasejenak.xyz' # The base hostname & protocol for your site
 twitter:            https://twitter.com/mediasejenak
