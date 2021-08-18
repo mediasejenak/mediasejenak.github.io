@@ -23,22 +23,21 @@
 			</div>
 		</div>
 </section>
-
+<h3 class="interview__title" style="text-align: center;">Artikel Terbaru</h3>
 <div class="catalog">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="row row--grid">
-          <h3 class="interview__title" style="text-align: center;">Artikel Terbaru</h3>
           {% for post in site.posts limit:8 %}
             {% include post-card.html %}
           {% endfor %}
-          <h3 class="interview__title" style="text-align: center;"><a href="{{ site.url }}">Lihat Selengkapnya</a></h3>
         </div>
       </div>
     </div>
   </div>
 </div>
+<h3 class="interview__title" style="text-align: center;"><a href="{{ site.url }}">Lihat Selengkapnya</a></h3>
 
 {% include footer.html %}
 
