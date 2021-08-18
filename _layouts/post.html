@@ -131,6 +131,11 @@
 </section>
 
 <h3 class="interview__title" style="text-align: center;">Mungkin Kamu Suka</h3>
+<div class="catalog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row row--grid">
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
   {% assign maxRelatedCounter = 0 %}
@@ -153,23 +158,18 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-<div class="catalog">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="row row--grid">
           {% include post-card.html %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
     {% endif %}
   {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% include footer.html %}
 
