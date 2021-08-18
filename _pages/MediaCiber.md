@@ -59,7 +59,7 @@ c. Di setiap berita ralat, koreksi, dan hak jawab wajib dicantumkan waktu pemuat
 
 d. Bila suatu berita media siber tertentu disebarluaskan media siber lain, maka:
 
-<ol><li>Tanggung jawab media siber pembuat berita terbatas pada berita yang dipublikasikan di media siber tersebut atau media siber yang berada di bawah otoritas teknisnya;</li><li> Koreksi berita yang dilakukan oleh sebuah media siber, juga harus dilakukan oleh media siber lain yang mengutip berita dari media siber yang dikoreksi itu;</li><li> Media yang menyebarluaskan berita dari sebuah media siber dan tidak <li>melakukan koreksi atas berita sesuai yang dilakukan oleh media siber pemilik dan atau pembuat berita tersebut, bertanggung jawab penuh atas semua akibat hukum dari berita yang tidak dikoreksinya itu.</li></ol>
+<ol><li>Tanggung jawab media siber pembuat berita terbatas pada berita yang dipublikasikan di media siber tersebut atau media siber yang berada di bawah otoritas teknisnya; </li><li> Koreksi berita yang dilakukan oleh sebuah media siber, juga harus dilakukan oleh media siber lain yang mengutip berita dari media siber yang dikoreksi itu; </li><li> Media yang menyebarluaskan berita dari sebuah media siber dan tidak melakukan koreksi atas berita sesuai yang dilakukan oleh media siber pemilik dan atau pembuat berita tersebut, bertanggung jawab penuh atas semua akibat hukum dari berita yang tidak dikoreksinya itu.</li></ol>
 
 e. Sesuai dengan Undang-Undang Pers, media siber yang tidak melayani hak jawab 
 dapat dijatuhi sanksi hukum pidana denda paling banyak Rp500.000.000 (Lima 
