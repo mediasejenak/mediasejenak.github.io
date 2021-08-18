@@ -151,7 +151,17 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      {% include post-card.html %}
+<div class="catalog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row row--grid">
+          {% include post-card.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
