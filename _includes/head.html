@@ -5,7 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 150 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% endif %}">
+  <meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% else %}{{ site.keyword }}{% endif %}">
   <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   {% if page.amp %}
   <link rel="amphtml" href="{{site.url}}/amp{{ page.url }}">
