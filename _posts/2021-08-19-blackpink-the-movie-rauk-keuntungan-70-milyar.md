@@ -6,7 +6,7 @@ author: ilham
 news: true
 amp: true
 description: BLACKPINK The Movie menjadi film rilisan bioskop terlaris di tahun 2021 dan berhasil meraup keuntungan sekitar 70 Milyar
-tags: [Anime]
+tags: [K-Pop]
 keyword: BLACKPINK, BLACKPINK The Movie, COVID-19, OSCAR, Tonton BLACKPINK The Movie
 image: https://res.cloudinary.com/mediasejenak/image/upload/v1629308598/20210819_004209_0000_puso3i.jpg
 ---
