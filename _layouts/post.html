@@ -6,7 +6,7 @@
 {% include header.html %}
 
 <section class="section section--head section--head-fixed section--gradient section--details-bg">
-                <div class="section__bg" data-bg="{{ page.image | prepend: site.baseurl }}"></div>
+                <div class="section__bg" data-bg="{{ page.image }}"></div>
 		<div class="container">
 			<!-- article -->
 			<div class="article">
@@ -22,7 +22,7 @@
 								<li>{{ tag }}</li>
 								{% endfor %}
 							</ul>
-                                                        <img src="{{ page.image | prepend: site.baseurl }}"/>
+                                                        <img alt="{{ page.title }}" src="{{ page.image }}"/>
 							{{ content }}
                                                         {% include disqus.html %}
 						</div>
