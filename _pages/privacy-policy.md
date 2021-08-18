@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Privacy Policy
 author: Media Sejenak
 redirect_from:
