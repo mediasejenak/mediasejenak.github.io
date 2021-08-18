@@ -1,21 +1,56 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
 
-{% include page-hero.html %}
+<body>
+{% include header.html %}
 
-<div class='o-wrapper'>
+<section class="section section--head section--head-fixed section--gradient section--details-bg">
+                <div class="section__bg" data-bg="{{ page.image | prepend: site.baseurl }}"></div>
+		<div class="container">
+			<!-- article -->
+			<div class="article">
+				<div class="row">
+					<div class="col-12 col-xl-8">
+						<!-- article content -->
+						<div class="article__content">
+							<h1>{{ page.title }}</h1>
+                                                        {{ content }}
+						</div>
+						<!-- end article content -->
+					</div>
+			  </div>
+			</div>
+		</div>
+</section>
 
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l'>
-      <article class='c-post page'>
-
-        <div class='c-content'>
-          {{ content }}
+<div class="catalog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row row--grid">
+          <h3 class="interview__title" style="text-align: center;">Artikel Terbaru</h3>
+          {% for post in site.posts limit:8 %}
+            {% include post-card.html %}
+          {% endfor %}
+          <h3 class="interview__title" style="text-align: center;"><a href="{{ site.url }}">Lihat Selengkapnya</a></h3>
         </div>
-
-      </article>
+      </div>
     </div>
   </div>
-
 </div>
+
+{% include footer.html %}
+
+        <!-- JS -->
+	<script src="{{ site.url }}/js/jquery-3.5.1.min.js"></script>
+	<script src="{{ site.url }}/js/bootstrap.bundle.min.js"></script>
+	<script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+	<script src="{{ site.url }}/js/slider-radio.js"></script>
+	<script src="{{ site.url }}/js/select2.min.js"></script>
+	<script src="{{ site.url }}/js/smooth-scrollbar.js"></script>
+	<script src="{{ site.url }}/js/jquery.magnific-popup.min.js"></script>
+	<script src="{{ site.url }}/js/plyr.min.js"></script>
+	<script src="{{ site.url }}/js/main.js"></script>
+</body>
+</html>
