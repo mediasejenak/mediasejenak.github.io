@@ -1,5 +1,5 @@
 ---
-date: 2021-08-17 20:55:00 +07:00
+date: 2021-08-19 01:23:00 +07:00
 layout: post
 title: BLACKPINK The Movie Berhasil Meraup keuntungan 70 Milyar serta menjadi film terlaris 2021
 author: ilham
