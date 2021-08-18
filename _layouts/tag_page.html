@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<div class="catalog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row row--grid">
     {% for post in site.tags[page.tag] %}
       {% include post-card.html %}
     {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
