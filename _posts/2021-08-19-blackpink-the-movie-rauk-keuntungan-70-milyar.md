@@ -16,7 +16,7 @@ Dikutip dari Soompi, pada 17 Agustus (17/08/21) lalu CJ 4DPLEX dan Trafalgar Rel
 
 Selain itu, menurut sebuah laporan dari Music Week, film dokumenter yang menyoroti ke empat member BLACKPINK tersebut berhasil meraup keuntungan sebesar $4,8 Juta atau sekita 70 Milyar rupiah dari hampir 100 wilayah perilisan.
 
-<img alt=""BLACKPINK The Movie" Berhasil Meraup keuntungan 70 Milyar serta menjadi film" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629308598/20210819_004209_0000_puso3i.jpg"/>
+<img alt="BLACKPINK The Movie Berhasil Meraup keuntungan 70 Milyar serta menjadi film" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629308598/20210819_004209_0000_puso3i.jpg"/>
 
 Film tersebut juga berhasil mendapatkan lebih dari 500.000 penonton di seluruh dunia, yang membuat dokumenter tersebut menjadi film dengan jumlah penerimaan tertinggi untuk rilisan bioskop di acara apapun pada tahun ini.
 
