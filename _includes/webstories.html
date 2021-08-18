@@ -1,0 +1,25 @@
+<div class="home home--title">
+          <div class="container">
+	    <div class="row">
+	      <div class="col-12">
+	        <h1 class="section__title">Web <b>Story</b></h1>
+              </div>
+	    </div>
+	  </div>
+
+		<div class="home__carousel owl-carousel" id="flixtv-hero">
+                  {% for stories in site.stories limit:5 %}
+		  <div class="home__card">
+	            <a href="{{ stories.url }}">
+		      <img src="{{ stories.cover.background }}" alt="{{ stories.title }}">
+		    </a>
+		    <div>
+		      <h2 style="color: white;">{{ stories.title }}</h2>
+		    </div>
+		  </div>
+                  {% endfor %}
+		</div>
+
+		<button class="home__nav home__nav--prev" data-nav="#flixtv-hero" type="button"></button>
+		<button class="home__nav home__nav--next" data-nav="#flixtv-hero" type="button"></button>
+	</div>
