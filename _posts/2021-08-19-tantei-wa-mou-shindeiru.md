@@ -119,7 +119,7 @@ Trailer Tantei wa Mou, Shindeiru. The Detective Is Already Dead | sumber: Youtub
   "url":"https://www.mediasejenak.xyz/tantei-wa-mou-shindeiru",
   "name":"Tantei wa Mou, Shindeiru.",
   "alternateName":"The Detective Is Already Dead",
-  "image":"https://m.media-amazon.com/images/M/MV5BNjQxYTNmZjktYTQwNS00YjY0LWIzNjAtZmM4MzhkODAyNzI4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
+  "image":"https://res.cloudinary.com/mediasejenak/image/upload/v1629365873/images_15_wijgit.jpg",
   "description":"Review Tantei wa Mou, Shindeiru, The Detective Is Already Dead dari My Anime List. Anime bergenre Comedy, Drama, Mystery, Romance yang tayang setiap hari minggu.",
   "review": {
     "@type": "Review",
