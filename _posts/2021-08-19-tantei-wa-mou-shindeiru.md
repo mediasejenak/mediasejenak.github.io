@@ -123,6 +123,7 @@ Trailer Tantei wa Mou, Shindeiru. The Detective Is Already Dead | sumber: Youtub
   "description":"Review Tantei wa Mou, Shindeiru, The Detective Is Already Dead dari My Anime List. Anime bergenre Comedy, Drama, Mystery, Romance yang tayang setiap hari minggu.",
   "review": {
     "@type": "Review",
+    "name": "detective is already dead",
     "itemReviewed": {
       "@type": "CreativeWork",
       "url": "https://www.mediasejenak.xyz/tantei-wa-mou-shindeiru"
@@ -133,7 +134,6 @@ Trailer Tantei wa Mou, Shindeiru. The Detective Is Already Dead | sumber: Youtub
     },
   "dateCreated":"2021-07-06",
   "inLanguage": "Indonesian",
-  "name": "detective is already dead",
   "reviewBody": "Anime ini Cukup Seru untuk di tonton, Alur ceritanya juga lumayan, Tidak Mudah terbaca. Pokonya Rekomended untuk jadi tontonan anime summer 2021.",
   "reviewRating": {
     "@type":"Rating",
