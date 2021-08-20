@@ -1,17 +1,22 @@
 ---
 layout: default
 ---
-<div class="catalog">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="row row--grid">
-          {% for post in paginator.posts %}
-            {% include post-card.html %}
-          {% endfor %}
-          {% include pagination.html %}
-        </div>
-      </div>
+<div
+  class="news-discovery news-discovery--image-cards"
+      data-ga-block="news_discovery"
+  >
+      
+<h2 class="title title--discovery">
+  Recent News</h2>
+  
+              <ul class="l-switcher">
+              {% for post in paginator.posts %}
+                {% include post-card.html %}
+              {% endfor %}
+              </ul>
+          <div class="l-cluster l-cluster--end">
+<a class="cta cta--with-arrow" href="#" aria-label="View More: Latest Manga Releases">
+      <span>View More</span>
+</a>
     </div>
-  </div>
-</div>
+            </div>
