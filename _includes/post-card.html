@@ -1,13 +1,28 @@
-            <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
-							<div class="card">
-								<a href="{{ post.url | prepend: site.baseurl }}" class="card__cover">
-									<img src="{{ post.image | prepend: site.baseurl }}" alt="">
-						                </a>
-								<h3 class="interview__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-								<ul class="card__list">
-								  {% for tag in post.tags limit:3 %}
-									<li>{{ tag }}</li>
-									{% endfor %}
-								</ul>
-							</div>
-            </div>
+<li>
+              <div class="card l-stack news-card  ">
+  
+<h3 class="title title--card-small l-stack__split">
+    <a href="{{ post.url }}" class="card__link">
+      <span
+    class="kicker kicker--small"
+  >{% for tag in post.tags limit:1 %}{{ tag }}{% endfor %}</span>
+
+<span>{{ post.title }}</span>
+  </a>
+</h3>
+
+  <div class="u-reorder-first">
+          <p>
+        
+<time
+  class="timestamp  "
+  datetime="2021-08-03T11:40:23-07:00"
+>{{ post.date }}</time>
+      </p>
+    
+    <div class="l-frame">
+        <img width="1600" height="960" src="{{ post.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" decoding="async" style="--image-width: 1600; --image-height: 960;" />    </div>
+  </div>
+
+  </div>
+            </li>
