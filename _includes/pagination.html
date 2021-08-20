@@ -1,17 +1,15 @@
-<div class="col-12 interview">
-<div class="interview__title" style="text-align: center;">
+<div class="l-cluster l-cluster--end">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" style="color: #2f80ed;">Previous</a>
+    <a href="{{ paginator.previous_page_path }}" class="cta">Previous</a>
   {% else %}
-    <span>Previous</span>
+    <span class="cta">Previous</span>
   {% endif %}
-  <span>
+  <span class="cta">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" style="color: #2f80ed;">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="cta">Next</a>
   {% else %}
-    <span>Next</span>
+    <span class="cta">Next</span>
   {% endif %}
-</div>
 </div>
