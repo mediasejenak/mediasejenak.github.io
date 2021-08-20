@@ -1,37 +1,64 @@
-<section class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="section__title"><a href="{{ site.url }}/tag/Anime">Anime</a></h2>
-				</div>
-                                
-				<div class="col-12">
-					<div class="section__carousel-wrap">
-						<div class="section__interview owl-carousel" id="popular">
-                                                        {% for post in site.posts %}
-                                                          {% if post.tags contains 'Anime' %}
-							  <div class="col-12">
-							    <div class="interview">
-							      <a href="{{ post.url | prepend: site.baseurl }}" class="interview__cover">
-								<img src="{{ post.image | prepend: site.baseurl }}" alt="">
-						              </a>
-							      <h3 class="interview__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-							      <ul class="card__list">
-							        {% for tag in post.tags limit:3 %}
-								  <li>{{ tag }}</li>
-								{% endfor %}
-							      </ul>
-							    </div>
-            </div>
-                                                          {% endif %}
-                                                        {% endfor %}
-						</div>
+<div
+  class="product-discovery"
+      data-ga-block="product_discovery_large"
+  >
+  <header>
+    
+<h2 class="title title--discovery product-discovery__title l-stack">
+<span class="kicker">Update Manga dan Anime</span>
+<span>Latest News on Anime</span>
+</h2>
 
-						<button class="section__nav section__nav--cards section__nav--prev" data-nav="#popular" type="button"><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25 7.72559L16.25 7.72559" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.2998 1.70124L1.2498 7.72524L7.2998 13.7502" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-						<button class="section__nav section__nav--cards section__nav--next" data-nav="#popular" type="button"><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.75 7.72559L0.75 7.72559" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.7002 1.70124L15.7502 7.72524L9.7002 13.7502" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
+      </header>
+
+      <ul class="l-reel l-reel--4-up u-break-words">
+        {% for post in site.posts limit:4 %}
+        {% if post.tags contains 'Anime' %}
+        <li>
+          <div class="card product-card-large">
+      <div class="series-image u-full-width l-frame">
+    <img width="1200" height="960" src="{{ post.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ post.title }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
+  
+  
+  
+<h3 class="title">
+          <a href="{{ post. url }}" class="card__link">{{ post.title }}</a>
+      </h3>
+
+  
+      <p>
+      <a
+        class="cta cta--text"
+        href="{{ post.url }}"
+        aria-label="Read: To Your Eternity"
+      >Baca</a>
+    </p>
+  </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+  
+      <div class="l-cluster l-cluster--end">
+      <a
+  class="cta cta--with-arrow"
+  href="/tag/Anime"
+          aria-label="View More: Discover Manga"
+  >
+      <span>
+      View More    </span>
+
+    <svg
+  width="34"
+  height="34"
+  viewBox="0 0 34 34"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="
+    icon
+          icon--with-fill
+        icon--arrow-right  "
+>
+  <path d="M15.4959 0L31.4348 15.9388H0V18.0612H31.4348L15.4959 34H18.4999L34 18.4999V15.4959L18.4999 0H15.4959Z"/></svg>  </a>
+    </div>
+  </div>
