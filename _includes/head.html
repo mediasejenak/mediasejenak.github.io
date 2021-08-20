@@ -1,19 +1,8 @@
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 150 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% else %}{{ site.keyword }}{% endif %}">
-  <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  {% if page.amp %}
-  <link rel="amphtml" href="{{site.url}}/amp{{ page.url }}">
-  {% endif %}
-  <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
-  <meta name="googlebot-news" content="index"/>
-  <meta name="robot" content="index"/>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
 
   <!-- icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -30,9 +19,51 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
   <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+	
+	<meta name='description' content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% else %}{{ site.keyword }}{% endif %}">
+  <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  {% if page.amp %}
+  <link rel="amphtml" href="{{site.url}}/amp{{ page.url }}">
+  {% endif %}
+  <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="googlebot-news" content="index"/>
+  <meta name="robot" content="index"/>
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<link rel="canonical" href="{{ site.url }}" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Kodansha - Inspire Impossible Stories" />
+	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:site_name" content="Media Sejenak" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='hurrytimer-css'  href='https://kodansha.us/wp-content/uploads/hurrytimer/css/dc7800e979448023.css?ver=5.8' media='all' />
+<link rel='stylesheet' id='kodansha-comics-style-css'  href='https://kodansha.us/wp-content/themes/kodansha-usa/assets/css/style.css?ver=1.9.4' media='all' />
+<script src='https://kodansha.us/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://kodansha.us/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://kodansha.us/wp-json/" /><link rel="alternate" type="application/json" href="https://kodansha.us/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kodansha.us/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kodansha.us/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://kodansha.us/' />
+<link rel="alternate" type="application/json+oembed" href="https://kodansha.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkodansha.us%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kodansha.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkodansha.us%2F&#038;format=xml" />
 
   {% if site.tags != "" %}
     {% include collecttags.html %}
@@ -51,20 +82,11 @@
 }
 </script>
 
-        <!-- CSS -->
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/slider-radio.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/select2.min.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/magnific-popup.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/plyr.css">
-	<link rel="stylesheet" href="https://www.mediasejenak.xyz/css/main.css">
-
   <script>
     var base_url = {{ site.baseurl | jsonify }},
         pagination_next_url = base_url + '{{ paginator.next_page_path }}',
         pagination_next_page_number = '{{ paginator.next_page }}',
         pagination_available_pages_number = '{{ paginator.total_pages }}';
   </script>
+
 </head>
