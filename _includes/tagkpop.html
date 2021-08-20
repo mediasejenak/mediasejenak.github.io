@@ -11,7 +11,7 @@
       </header>
 
       <ul class="l-grid l-grid--max-3">
-        {% for post in site.posts limit:4 %}
+        {% for post in paginator.posts %}
         {% if post.tags contains 'K-Pop' %}
         <li>
 <div class="card book-card-small">
