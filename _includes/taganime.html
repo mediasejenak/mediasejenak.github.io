@@ -12,7 +12,7 @@
       </header>
 
       <ul class="l-reel l-reel--4-up u-break-words">
-        {% for post in site.posts limit:4 %}
+        {% for post in paginator.posts %}
         {% if post.tags contains 'Anime' %}
         <li>
           <div class="card product-card-large">
