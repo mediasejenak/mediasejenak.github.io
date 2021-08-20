@@ -15,7 +15,17 @@
 	<div class="entry-content">
 
 
-{{ content }}
+<div class="news-discovery news-discovery--image-cards" data-ga-block="news_discovery">
+      
+<h2 class="title title--discovery">New from {{ page.title }}</h2>
+<p>{{ page.description }}</p>
+  
+              <ul class="l-switcher">
+              {% for post in site.tags[page.tag] %}
+                {% include post-card.html %}
+              {% endfor %}
+              </ul>
+            </div>
 
 	</div><!-- .entry-content -->
 
