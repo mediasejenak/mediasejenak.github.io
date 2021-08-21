@@ -1,40 +1,54 @@
-<!DOCTYPE html>
-<html ⚡ lang="id">
+<!doctype html>
+<html lang="en-US" class="u-no-scroll-x">
 {% include headAMP.html %}
 
-<body>
-
+<body class="series-template-default single single-series postid-40398">
+<div id="page" class="site">		
 {% include headerAMP.html %}
+		
+<main id="primary" class="site-main">
 
-<section class="section section--head section--head-fixed section--gradient section--details-bg">
-                <amp-img layout="responsive" height="720" width="1200" src="{{ page.image | prepend: site.baseurl }}"></amp-img>				
-                <div class="container">
-			<!-- article -->
-			<div class="article">
-				<div class="row">
-					<div class="col-12 col-xl-8">
-						<!-- article content -->
-						<div class="article__content">
-							<h1>{{ page.title }}</h1>
+<article id="post-92635" class="post-92635 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-sales tag-abe-kuns-got-me-now-2 tag-asahi-sempais-favorite-2 tag-beauty-bunny tag-black-panther-and-sweet-16 tag-can-i-kiss-you-every-day-2 tag-cosplay-animal tag-domestic-girlfriend tag-ill-win-you-over-2 tag-kakafukaka tag-love-massage-melting-beauty-treatment tag-maid-in-honey tag-my-bosss-kitten-2 tag-my-pink-is-overflowing tag-peach-heaven tag-sempai">
+<header class="news-header">
+              <picture class="post-thumbnail">
+  <source media="(max-width: 49em)" srcset="{{ page.image }}">
+  <source media="(min-width: 50em)" srcset="{{ page.image }}">
+  <img
+    src="{{ page.image }}"
+    alt=""
+    loading="lazy"
+    decoding="async"
+    width="1200"
+    height="960"
+  >
+</picture>
+              
+<h1 class="title title--page">
+  {{ page.title }}
+</h1>
+      
+<p class="byline">Penulis: {{ page.author }}</p>
+<time class="timestamp timestamp--large " datetime="{{ page.date }}">{{ page.date }}</time>
+</header>
 
-							<ul class="list">
-								{% for tag in page.tags %}
-								<li>{{ tag }}</li>
-								{% endfor %}
-							</ul>
-                                                        {{ content }}
-						</div>
-						<!-- end article content -->
-					</div>
-			  </div>
-			</div>
+<div class="l-center news-body">
+<div>
+  {{ content }}
+</div>
+</div>
 
+</article>
+</main>
+	
 {% if page.news %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+  "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | prepend: site.url }}"
+  },
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
   "datePublished": "{{ page.date }}",
   "dateModified": "{% if page.modified %}{{page.modified}}{% else %}{{page.date}}{% endif %}",
@@ -123,10 +137,9 @@
 }
 </script>
 
-		</div>
-</section>
-
 {% include footer.html %}
 
+
+</div>
 </body>
 </html>
