@@ -60,6 +60,14 @@
   {% endfor %}
               </ul>
 
+<h2 class="title title--discovery">Berita Terkini</h2>
+
+{% for post in site.posts limit:10 %}
+  <ul class="l-switcher">
+    {% include post-cardAMP.html %}
+  </ul>
+{% endfor %}
+
 </div>
 
 </article>
