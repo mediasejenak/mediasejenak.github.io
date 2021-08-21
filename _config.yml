@@ -37,6 +37,9 @@ markdown:  kramdown
 paginate:  6
 paginate_path: "/page:num/"
 
+kramdown: 
+  parse_block_html: true
+
 gems:
   - jekyll-paginate
   - jekyll/tagging
