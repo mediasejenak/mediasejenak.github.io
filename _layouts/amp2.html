@@ -5,9 +5,7 @@
 <body class="series-template-default single single-series postid-40398">
 <div id="page" class="site">
 
-<header>
-<a href="{{ site.url }}"><amp-img layout="responsive" src="{{ site.logo }}" alt="{{ site.title }}" width="1500" height="500"></amp-img></a>
-</header>
+{% include headerAMP.html %}
 		
 <main class="site-main">
 
@@ -30,7 +28,7 @@
   {{ content }}
 </div>
 </div>
-{% include footer.html %}
+
 </article>
 </main>
 	
@@ -143,6 +141,8 @@
   }]
 }
 </script>
+
+{% include footer.html %}
 
 </div>
 </body>
