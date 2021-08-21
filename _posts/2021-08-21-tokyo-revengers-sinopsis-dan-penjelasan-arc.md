@@ -13,6 +13,8 @@ Tokyo Revengers merupakan sebuah seri manga yang ditulis dan diilustrasikan oleh
 
 Seri manga Tokyo Revengers ini diterbitkan oleh Kodansha pada 1 Maret 2017 dan rilis di Majalah Weekly Shonen Jump. Selain itu, Kodansha US juga sudah melisensikan manga ini yang mereka terbitkan dalam bahasa inggris.
 
+{% raw %}
+<h4>Tabel of Content:</h4>
 <div id="table-of-content">
 <ol>
 <li><a href="#sinopsis">Sinopsis</a></li>
@@ -29,6 +31,7 @@ Seri manga Tokyo Revengers ini diterbitkan oleh Kodansha pada 1 Maret 2017 dan r
 <li><a href="#link-baca-manga">Link Baca Manga</a></li>
 </ol>
 </div>
+{% endraw %}
 
 <img alt="{{ page.title }}" src="https://res.cloudinary.com/mediasejenak/image/upload/v1629378583/TokyoRevengers_022_cover-1024x1536_1_rzv80b.jpg"/>
 
