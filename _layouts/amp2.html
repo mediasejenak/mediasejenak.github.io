@@ -28,7 +28,7 @@
 
 <h2 class="title title--discovery">Artikel Terkait</h2>
   
-<amp-carousel id="custom-button" width="500" height="500" layout="responsive" type="slides" autoplay delay="3000" role="region" aria-label="Carousel with custom button styles">
+<amp-carousel width="500" height="500" layout="responsive" type="slides" autoplay delay="3000" role="region">
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
   {% assign maxRelatedCounter = 0 %}
@@ -61,7 +61,7 @@
 </amp-carousel>
 
 <h2 class="title title--discovery">Berita Terkini</h2>
-<amp-carousel id="custom-button" width="500" height="500" layout="responsive" type="slides" autoplay delay="3000" role="region" aria-label="Carousel with custom button styles">
+<amp-carousel width="500" height="500" layout="responsive" type="slides" autoplay delay="3000" role="region">
 {% for post in site.posts limit:10 %}
     {% include post-cardAMP.html %}
 {% endfor %}
