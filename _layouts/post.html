@@ -38,7 +38,7 @@
 </div>
 
 <div class="news-discovery news-discovery--image-cards" data-ga-block="news_discovery">
-<h2 class="title title--discovery">Recent News</h2>
+<h2 class="title title--discovery">Artikel Terkait</h2>
   
               <ul class="l-switcher">
   {% assign maxRelated = 4 %}
@@ -71,11 +71,12 @@
     {% endif %}
   {% endfor %}
               </ul>
-    <div class="l-cluster l-cluster--end">
-<a class="cta cta--with-arrow" href="{{ site.url }}" aria-label="View More: Latest Manga Releases">
-      <span>View More</span>
-</a>
-    </div>
+<h2 class="title title--discovery">Terbaru di K-Pop dan K-Drama</h2>
+{% include tagkpop.html %}
+
+<h2 class="title title--discovery">Terbaru di Anime dan Manga</h2>
+{% include taganime.html %}
+
 </div>
 
 </article>
