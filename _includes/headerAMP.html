@@ -10,24 +10,14 @@
                 </div>
 
       <div class="site-header__mobile-menu-button">
-        <dialog-toggle dialog="mobile_menu">
-          <a href="{{ page.url | replace:'/amp','' | prepend: site.url }}" class="cta">
-            <span class="site-header__menu-text-open">Menu</span>
-          </a>
-        </dialog-toggle>
+        <a href="{{ page.url | replace:'/amp','' | prepend: site.url }}" class="cta">
+          <span class="site-header__menu-text-open">Menu</span>
+        </a>
       </div>
     </div>
   </div>
 
-  <dialog-box
-    id="mobile_menu"
-    class="site-header__mobile-menu"
-    modal
-    inert-ignore="masthead"
-    desktop="hide"
-    root-class="mobile-menu-open"
-    autofocus-on-open="self"
-  >
+  <div class="site-header__mobile-menu">
 
 <div class="search-form">
     <a href="{{ page.url | replace:'/amp','' | prepend: site.url }}" class="icon-button">
@@ -45,5 +35,5 @@
     </a>
 </div>
   
-</dialog-box>
+</div>
 </header>
