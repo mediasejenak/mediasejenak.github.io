@@ -1,6 +1,6 @@
 ---
 date: 2021-08-22 16:13:00 +07:00
-layout: post
+layout: amp2
 title: Recap dan Link Baca Manga One Piece Chapter 1022, Zoro dan Sanji mulai beraksi
 author: ilham
 news: true
