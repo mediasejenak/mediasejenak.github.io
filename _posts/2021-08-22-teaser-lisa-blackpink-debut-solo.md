@@ -1,5 +1,5 @@
 ---
-date: 2021-08-17 23:47:00 +07:00
+date: 2021-08-22 23:47:00 +07:00
 layout: post
 title: Teaser Debut Solo Lisa BLACKPINK telah dirilis
 author: ilham
