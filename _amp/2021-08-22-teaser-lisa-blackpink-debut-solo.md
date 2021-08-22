@@ -15,7 +15,9 @@ YG Entertainment telah membagikan teaser debut solo Lisa berupa foto yang di ung
 
 Dalam foto bergaya vintage tersebut, Lisa tampak mengenakan pakaian mini dengan boots tinggi berwarna merah. Tampilan foto diubah menjadi mosaik yang menampilkan kesan misterius.
 
-<amp-twitter width="375" height="472" layout="responsive" data-tweetid="1429458428968140800"></amp-twitter>
+<amp-img layout="responsive" width="675" height="1200" alt="Teaser solo Lisa Blackpink" src="https://ik.imagekit.io/mediasejenak/E9ZyoyEVUAQ3VaI_MfZdLqb4p.jpeg"></amp-img>
+
+<i>Sumber Foto: Twitter YG ENTERTAINMENT</i>
 
 Dikutip dari Koreaboo, Lisa BLACKPINK juga tengah memfilmkan Music Video solonya. Selain itu, debut solonya ini juga merupakan hasil kerjasama dengan produser THE BLACK LABEL yang merupakan agensi turunan dari YG Entertainment.
 
