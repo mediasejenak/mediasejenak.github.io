@@ -1,6 +1,6 @@
 ---
 date: 2021-08-22 23:07:00 +07:00
-layout: post
+layout: amp2
 title: Recap dan Link Nonton Boruto Episode 212, Penghianatan Amado
 author: ilham
 news: true
