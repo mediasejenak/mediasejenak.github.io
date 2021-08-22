@@ -33,11 +33,13 @@
 	
 	<title>{% if page.title %}{{ page.title }} - Media Sejenak{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="canonical" href="{{ site.url }}" />
-	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:site" content="@mediasejenak" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Media Sejenak - Berita Harian Dunia Hiburan" />
-	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}{{ site.url }}{% endif %}" />
 	<meta property="og:site_name" content="Media Sejenak" />
+        <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.logo }}{% endif %}" />
 	<meta name="twitter:card" content="summary_large_image" />
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
