@@ -7,7 +7,7 @@ news: true
 amp: true
 description: Recap dan Link Nonton Boruto Episode 212 Sub Indo, Amado berhianat ke konoha untuk melawan Jigen.
 tags: [Anime]
-keyword: Boruto, Boruto: Naruto Next Generation, Boruto Episode 212 sub indo, Naruto, Shikamaru, Amado, Kashin Koji, Sasuke
+keyword: Boruto, Boruto Naruto Next Generation, Boruto Episode 212 sub indo, Naruto, Shikamaru, Amado, Kashin Koji, Sasuke
 image: https://ik.imagekit.io/mediasejenak/imgonline-com-ua-CompressToSize-RBopBG7gUj_T7wAxtJg2.jpg
 ---
 Kelanjutan cerita dari seri Anime Boruro tengah memasuki fase penting dalam arc Kawaki, Sebelumnya Kashin Koji yang masih bersembunyi di Konoha mengetahui jika Jigen masih terluka parah, akibat pertarungannya dengan Naruto dan Sasuke.
