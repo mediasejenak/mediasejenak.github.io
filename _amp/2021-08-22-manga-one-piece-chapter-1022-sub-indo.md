@@ -27,7 +27,7 @@ Pada panel terakhir, kita ditampilkan Sanji dan Zoro yang bersama-sama melawan K
 
 Namun disini ada satu hal yang dapat mereka setujui. Yaitu, kalau mereka menang di pertempuran ini, Luffy tentunya akan menjadi Raja Bajak laut.
 
-<img src="https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/images/imgonline-com-ua-CompressToSize-ok9DZV7FlHD.jpg" alt="Manga One Piece Chapter 1022"/>
+<amp-img layout="responsive" width="774" height="300" src="https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/images/imgonline-com-ua-CompressToSize-ok9DZV7FlHD.jpg" alt="Manga One Piece Chapter 1022"></amp-img>
 
 <i>Sunber Gambar: Dok. Weekly Shōnen Jump Manga One Piece Chapter 1022 from Twitter</i>
 
