@@ -1,6 +1,6 @@
 ---
 date: 2021-08-23 13:19:00 +07:00
-layout: post
+layout: amp2
 title: Taeyeon umumkan Reuni Girl Generation di acara You Quiz on the Block
 author: ilham
 news: true
