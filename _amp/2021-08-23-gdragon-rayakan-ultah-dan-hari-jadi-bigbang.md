@@ -13,15 +13,21 @@ Beberapa hari yang lalu, tepatnya pada tanggal 18 agustus, Rapper sekaligus penu
 
 Bertepatan dengan hari jadi Big Bang tersebut, G-Dragon mengunggah di sosial medianya cover-cover album Big Bang mulai dari "ALIVE", "MADE", hingga "REMEBER". Unggahan tersebut tentunya mendapat banyak respon positif dari para fans. Terdapat 40.000 lebih komentar yang menyatakan kerinduan mereka terhadap Big Bang, serta "Menunggu Album Baru Rilis".
 
+{% raw %}
 <amp-instagram data-shortcode="CSwm4d9lsSO" data-captioned width="400" height="400" layout="responsive"></amp-instagram>
+{% endraw %}
 
 G-DRAGON yang memiliki nama asli Kwon Ji Young merupakan Rapper serta Leader Big Bang yang memiliki pengaruh luar biasa di dunia musik dan mode. Ia juga dikenal sebagai salah satu orang yang mengubah permainan musik korea selatan ke manca negara.
 
+{% raw %}
 <amp-instagram data-shortcode="CSt63TwlVWe" data-captioned width="400" height="400" layout="responsive"></amp-instagram>
+{% endraw %}
 
 Setelah memnyelesaikan masa wajib militernya pada tahun 2019 lalu, G-DRAGON memperbarui kontraknya bersama YG Entertainment untuk ketiga kalinya di tahun lalu. YG juga mengumumkan pada November tahun lalu kalau G-DRAGON kini sedang menulis album baru.
 
+{% raw %}
 <amp-instagram data-shortcode="CSXBef-lsl6" data-captioned width="400" height="400" layout="responsive"></amp-instagram>
+{% endraw %}
 
 ### Credit
 
