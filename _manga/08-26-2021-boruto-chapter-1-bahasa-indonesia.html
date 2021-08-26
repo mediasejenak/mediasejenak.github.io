@@ -97,21 +97,19 @@ cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
       "height": "60"
     }
   },
-  "hasPart": [
-    {
-      "@id": "/#review"
-      "@type": "Review",
-      "author": "Ilham Maulana",
-      "datePublished": "{{ page.date }}",
-      "reviewBody": "Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi waktu luang.",
-      "name": "Ilham Maulana",
-      "reviewRating": {
-        "@type": "Rating",
-        "bestRating": "10",
-        "ratingValue": "10",
-        "worstRating": "1"
-    }
-  ],
+  "review": {
+    "@id": "{{ page.url }}#review"
+    "@type": "Review",
+    "author": "Ilham Maulana",
+    "datePublished": "{{ page.date }}",
+    "reviewBody": "Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi waktu luang.",
+    "name": "Ilham Maulana",
+    "reviewRating": {
+    "@type": "Rating",
+    "bestRating": "10",
+    "ratingValue": "10",
+    "worstRating": "1"
+  },
   "image": {
     "@type": "ImageObject",
     "url": "{{ page.image }}",
