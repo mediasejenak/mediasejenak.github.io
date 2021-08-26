@@ -6,7 +6,7 @@ subtitle: Boruto Chapter 1
 author: Ukyō Kodachi dan Masashi Kishimoto
 artikel: true
 description: Baca Manga Boruto Chapter 1 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.
-tags: [Manga]
+tags: [Boruto]
 keyword: Manga Boruto Chapter 1, Baca Manga Boruto, Boruto Naruto Next Generation, Kawaki, Uzumaki Naruto, Uciha Sasuke, Mitsuki, Uciha Sarada, Manga Boruto Sub Indo, Manga Boruto Bahasa Indonesia
 image: https://cdn.komiku.co.id/wp-content/uploads/2190438-1.jpg
 cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
