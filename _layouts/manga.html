@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-US" class="u-no-scroll-x">
+{% include head.html %}
+
+<body class="series-template-default single single-series postid-40398">
+<div id="page" class="site">		
+{% include header.html %}
+		
+<main id="primary" class="site-main">
+
+<article id="post-92635" class="post-92635 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-sales tag-abe-kuns-got-me-now-2 tag-asahi-sempais-favorite-2 tag-beauty-bunny tag-black-panther-and-sweet-16 tag-can-i-kiss-you-every-day-2 tag-cosplay-animal tag-domestic-girlfriend tag-ill-win-you-over-2 tag-kakafukaka tag-love-massage-melting-beauty-treatment tag-maid-in-honey tag-my-bosss-kitten-2 tag-my-pink-is-overflowing tag-peach-heaven tag-sempai">
+<div class="product-detail-hero">
+  <div class="l-frame product-image">
+    <img width="640" height="964" src="{{ page.cover }}" class="attachment-large size-large" alt="{{ page.title }}" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" decoding="async" style="--image-width: 640; --image-height: 964;" />
+  </div>
+</div>
+<header class="news-header">
+              
+<h1 class="title title--page">
+  {{ page.title }}
+</h1>
+      
+<p class="byline">Penulis: {{ page.author }}</p>
+<time class="timestamp timestamp--large " datetime="{{ page.date }}">{{ page.date }}</time>
+</header>
+
+<div class="l-center news-body">
+<div>
+  {{ content }}
+</div>
+</div>
+
+<div class="news-discovery news-discovery--image-cards" data-ga-block="news_discovery">
+<h2 class="title title--discovery">Artikel Terkait</h2>
+  
+              <ul class="l-switcher">
+  {% assign maxRelated = 4 %}
+  {% assign minCommonTags =  1 %}
+  {% assign maxRelatedCounter = 0 %}
+
+
+  {% for post in site.posts %}
+
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+          {% include post-card.html %}
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+              </ul>
+
+</div>
+
+</article>
+</main>
+	
+{% if page.news %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | prepend: site.url }}"
+  },
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "datePublished": "{{ page.date }}",
+  "dateModified": "{% if page.modified %}{{page.modified}}{% else %}{{page.date}}{% endif %}",
+  "description": "{{ page.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Ilham Maulana"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mediasejenak.xyz/apple-icon-60x60.png",
+      "width": "60",
+      "height": "60"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image }}",
+    "height": "1200",
+    "width": "720"
+  }
+}
+</script>
+{% endif %}
+
+{% if page.artikel %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | prepend: site.url }}"
+  },
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "datePublished": "{{ page.date }}",
+  "dateModified": "{% if page.modified %}{{page.modified}}{% else %}{{page.date}}{% endif %}",
+  "description": "{{ page.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Ilham Maulana"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mediasejenak.xyz/apple-icon-60x60.png",
+      "width": "60",
+      "height": "60"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image }}",
+    "height": "1200",
+    "width": "720"
+  }
+}
+</script>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Beranda",
+    "item": "https://www.mediasejenak.xyz/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "{% for tag in page.tags %}{{ tag }}{% endfor %}",
+    "item": "https://www.mediasejenak.xyz/tag/{% for tag in page.tags %}{{ tag }}{% endfor %}"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "{{ page.title }}",
+    "item": "{{ page.url | prepend: site.url }}"  
+  }]
+}
+</script>
+
+{% include footer.html %}
+
+<script src='https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/js/application.js?ver=1.9.4' id='media-sejenak-application-js'></script>
+<script src='https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+<script src="{{ site.url }}/js/plyr.min.js"></script>
+
+</div>
+</body>
+</html>
