@@ -1,6 +1,6 @@
 ---
 date: 2021-08-26 20:55:00 +07:00
-layout: post
+layout: manga
 title: Baca Manga Boruto Chapter 1 Bahasa Indonesia
 subtitle: Boruto Chapter 1
 author: ilham
