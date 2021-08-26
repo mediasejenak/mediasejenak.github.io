@@ -97,8 +97,19 @@ cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
       "height": "60"
     }
   },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image }}",
+    "height": "1200",
+    "width": "720"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
   "review": {
-    "@id": "{{ page.url }}#review"
+    "@id": "{{ page.url | prepend site.url }}#review"
     "@type": "Review",
     "author": "Ilham Maulana",
     "datePublished": "{{ page.date }}",
@@ -114,12 +125,6 @@ cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
     "@type": "AggregateRating",
     "ratingValue": "10",
     "reviewCount": "1"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ page.image }}",
-    "height": "1200",
-    "width": "720"
   }
 }
 </script>
