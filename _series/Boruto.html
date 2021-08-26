@@ -61,12 +61,12 @@ keyword: Manga Boruto, Baca Manga Boruto, Boruto Naruto Next Generation, Kawaki,
 	<tbody>
 </table>
 
-<h2>List Episode</h2>
+<h2>List Chapter</h2>
 
 <ul>
 {% for manga in site.manga %}
   {% if manga.tags contains "Boruto" %}
-    <li><a href="{{ manga.url }}">{{ manga.title }}</a></li>
+    <li><a href="{{ manga.url }}">{{ manga.subtitle }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
