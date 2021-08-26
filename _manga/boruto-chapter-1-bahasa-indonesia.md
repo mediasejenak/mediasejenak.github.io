@@ -3,6 +3,7 @@ date: 2021-08-26 20:55:00 +07:00
 layout: post
 title: Baca Manga Boruto Chapter 1 Bahasa Indonesia
 author: ilham
+artikel: true
 description: Baca Manga Boruto Chapter 1 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.
 tags: [Manga]
 keyword: Manga Boruto Chapter 1, Baca Manga Boruto, Boruto Naruto Next Generation, Kawaki, Uzumaki Naruto, Uciha Sasuke, Mitsuki, Uciha Sarada, Manga Boruto Sub Indo, Manga Boruto Bahasa Indonesia
@@ -74,47 +75,19 @@ Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi wak
 {% raw %}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ page.url | prepend: site.url }}"
-  },
-  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "datePublished": "{{ page.date }}",
-  "dateModified": "{% if page.modified %}{{page.modified}}{% else %}{{page.date}}{% endif %}",
-  "description": "{{ page.description }}",
-  "author": {
-    "@type": "Person",
-    "name": "Ilham Maulana"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://mediasejenak.xyz/apple-icon-60x60.png",
-      "width": "60",
-      "height": "60"
-    }
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ page.image }}",
-    "height": "1200",
-    "width": "720"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "aggregateRating": {
+   "@context":"https://schema.org",
+   "@type":"ComicSeries",
+   "url":"https://www.mediasejenak.xyz/manga/boruto-chapter-1-bahasa-indonesia",
+   "name":"Boruto: Naruto Next Generation",
+   "image":"https://cdn.komiku.co.id/wp-content/uploads/2190438-1.jpg",
+   "description":"Baca Manga Boruto Chapter 1 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.",
+   "aggregateRating": {
     "@type": "AggregateRating",
+    "ratingCount": 39452,
     "bestRating": 10,
     "worstRating": 1,
-    "ratingValue": 10,
-    "reviewCount": 1
+    "ratingValue": 7 
+    }
   }
 }
 </script>
