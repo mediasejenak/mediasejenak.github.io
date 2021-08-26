@@ -11,7 +11,7 @@ keyword: Manga Boruto Chapter 2, Baca Manga Boruto, Boruto Naruto Next Generatio
 image: https://cdn.komiku.co.id/wp-content/uploads/2299357-5.jpg
 cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
 ---
-															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-2.jpg" alt="Boruto Chapter 2 2" loading="lazy" id="2"/>															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-3.jpg" alt="Boruto Chapter 2 3" loading="lazy" id="3">
+<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-2.jpg" alt="Boruto Chapter 2 2" loading="lazy" id="2"/>															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-3.jpg" alt="Boruto Chapter 2 3" loading="lazy" id="3">
 															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-4.jpg" alt="Boruto Chapter 2 4" loading="lazy" id="4"/>
 															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-5.jpg" alt="Boruto Chapter 2 5" loading="lazy" id="5"/>
 															<img src="https://cdn.komiku.co.id/wp-content/uploads/2299357-6.jpg" alt="Boruto Chapter 2 6" loading="lazy" id="6"/>
