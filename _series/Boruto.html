@@ -8,7 +8,7 @@ artikel: true
 author: Ukyo Kodachi dan Masashi Kishimoto
 image: https://www.mediasejenak.xyz/images/images%20(20).jpeg
 cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
-tags: [Boruto]
+tags: [Series]
 keyword: Manga Boruto, Baca Manga Boruto, Boruto Naruto Next Generation, Kawaki, Uzumaki Naruto, Uciha Sasuke, Mitsuki, Uciha Sarada, Manga Boruto Sub Indo, Manga Boruto Bahasa Indonesia
 ---
 <p>Boruto: Naruto Next Generations adalah serial manga Jepang yang ditulis oleh Ukyo Kodachi dan Masashi Kishimoto serta diilustrasikan oleh Mikio Ikemoto. Manga ini diterbitkan di majalah Weekly Shonen Jump Shueisha pada Mei 2016 sebelum disiarkan di majalah Shueisha lainnya, V Jump. Di Juli. 2019. Pada November 2020, Kodachi mengundurkan diri dan digantikan oleh Kishimoto. Boruto juga merupakan cerita spin-off dan sekuel dari manga Naruto karya Masashi Kishimoto, yang menceritakan kehidupan putra Naruto Uzumaki Boruto Uzumaki dan teman-temannya.</p>
@@ -64,6 +64,14 @@ keyword: Manga Boruto, Baca Manga Boruto, Boruto Naruto Next Generation, Kawaki,
 </table>
 
 <h2>List Episode</h2>
+
+<ul>
+{% for manga in site.manga %}
+  {% if manga.tags contains "Boruto" %}
+    <li><a href="{{ manga.url }}">{{ manga.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 <p>Keyword Terkait: {{ page.keyword }}</p>
 
