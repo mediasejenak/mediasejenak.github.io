@@ -61,16 +61,17 @@ cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
 															<img src="https://cdn.komiku.co.id/wp-content/uploads/2190438-57.jpg" alt="Boruto Chapter 1 57" loading="lazy" id="57">
 															<img src="https://cdn.komiku.co.id/wp-content/uploads/2190438-58.jpg" alt="Boruto Chapter 1 58" loading="lazy" id="58">
 															
-<p>Keyword terkait: {{ page.keyword }}</p>
+Keyword terkait: {{ page.keyword }}
 
-<h2 id="sinopsis">Sinopsis</h2>
-<p>Manga ini merupakan kelanjutan dari seri dunia ninja Naruto Shippuden yang berlatar masa depan. Cerita dari Boruto, Kawaki, Sarada, dan Mitsuki sungguh menarik untuk diikuti. Kita akan diperlihatkan berbagai macam musuh baru yang kuat dan juga perkembangan dari Boruto dan kawan-kawan dalam menjadi Shinobi.</p>
+## Sinopsis
+Manga ini merupakan kelanjutan dari seri dunia ninja Naruto Shippuden yang berlatar masa depan. Cerita dari Boruto, Kawaki, Sarada, dan Mitsuki sungguh menarik untuk diikuti. Kita akan diperlihatkan berbagai macam musuh baru yang kuat dan juga perkembangan dari Boruto dan kawan-kawan dalam menjadi Shinobi.
 
-<p>Sebagai informasi, Boruto: Naruto Next Generation merupakan manga asal negeri sakura Jepang yang ditulis oleh Ukyō Kodachi dan Masashi Kishimoto dan diilustrasikan oleh Mikio Ikemoto. Sebelumnya Manga kelanjutan dari seri Naruto ini ditulis oleh Kodachi sebelum pada akhirnya ia mengundurkan diri dan digantikan oleh Masashi Kishimoto hingga sekarang.</p>
+Sebagai informasi, Boruto: Naruto Next Generation merupakan manga asal negeri sakura Jepang yang ditulis oleh Ukyō Kodachi dan Masashi Kishimoto dan diilustrasikan oleh Mikio Ikemoto. Sebelumnya Manga kelanjutan dari seri Naruto ini ditulis oleh Kodachi sebelum pada akhirnya ia mengundurkan diri dan digantikan oleh Masashi Kishimoto hingga sekarang.
 
-<h2 id="review">Review</h2>
-<p>Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi waktu luang. - Ilham Maulana</p>
+## Review
+Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi waktu luang. - Ilham Maulana
 
+{% raw %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -128,3 +129,4 @@ cover: https://www.mediasejenak.xyz/images/images%20(20).jpeg
   }
 }
 </script>
+{% endraw %}
