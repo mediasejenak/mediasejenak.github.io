@@ -1,21 +1,21 @@
-	  {% for post in site.posts limit:1 %}
+	  {% for manga in site.manga limit:1 %}
 		<div
   class="hero"
       data-ga-block="hero"
   >
   <div class="l-frame u-colorize u-colorize--red">
-      <img width="2560" height="1600" src="{{ post.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ post.title }}" loading="lazy" sizes="(max-width: 2560px) 100vw, 2560px" decoding="async" style="--image-width: 2560; --image-height: 1600;" />  </div>
+      <img width="2560" height="1600" src="{{ manga.cover }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 2560px) 100vw, 2560px" decoding="async" style="--image-width: 2560; --image-height: 1600;" />  </div>
 
   <div class="hero__text l-box">
     <h2 class="title title--discovery l-stack">
-      <span class="kicker">{% for tag in post.tags limit:3 %}{{ tag }}{% endfor %}</span>
+      <span class="kicker">{% for tag in manga.tags limit:3 %}{{ tag }}{% endfor %}</span>
       
-      <span>{{ post.title }}</span>
+      <span>{{ manga.subtitle }}</span>
     </h2>
 
     <div class="l-cluster l-cluster--spread l-cluster--center-vertical">
       <p class="byline"></p>
-      <a class="cta cta--with-arrow" href="{{ post.url }}"
+      <a class="cta cta--with-arrow" href="{{ manga.url }}"
           aria-label="View: Sweat and Soap">
       <span>Baca</span>
 
