@@ -12,23 +12,23 @@
       </header>
 
       <ul class="l-reel l-reel--4-up u-break-words">
-        {% for manga in site.manga limit:5 %}
+        {% for series in site.series limit:5 %}
         <li>
           <div class="card product-card-large">
       <div class="series-image u-full-width l-frame">
-    <img width="1200" height="960" src="{{ manga.cover }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
+    <img width="1200" height="960" src="{{ series.cover }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
   
   
   
 <h3 class="title">
-          <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
+          <a href="{{ series.url }}" class="card__link">{{ series.subtitle }}</a>
       </h3>
 
   
       <p>
       <a
         class="cta cta--text"
-        href="{{ manga.url }}"
+        href="{{ series.url }}"
         aria-label="Read: To Your Eternity"
       >Baca</a>
     </p>
