@@ -109,23 +109,12 @@ Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi wak
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@id": "{{ page.url | prepend site.url }}#review"
-    "@type": "Review",
-    "author": "Ilham Maulana",
-    "datePublished": "{{ page.date }}",
-    "reviewBody": "Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi waktu luang.",
-    "name": "Ilham Maulana",
-    "reviewRating": {
-    "@type": "Rating",
-    "bestRating": "10",
-    "ratingValue": "10",
-    "worstRating": "1"
-  },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "10",
-    "reviewCount": "1"
+    "bestRating": 10,
+    "worstRating": 1,
+    "ratingValue": 10,
+    "reviewCount": 1
   }
 }
 </script>
