@@ -2,6 +2,7 @@
 date: 2021-08-26 20:55:00 +07:00
 layout: post
 title: Baca Manga Boruto Chapter 1 Bahasa Indonesia
+subtitle: Boruto Chapter 1
 author: ilham
 artikel: true
 description: Baca Manga Boruto Chapter 1 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.
