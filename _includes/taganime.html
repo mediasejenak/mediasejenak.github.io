@@ -6,7 +6,7 @@
     
 <h2 class="title title--discovery product-discovery__title l-stack">
 <span class="kicker">Update Manga dan Anime</span>
-<span>Latest News on Anime</span>
+<span>Latest Manga Chapter</span>
 </h2>
 
       </header>
@@ -16,19 +16,19 @@
         <li>
           <div class="card product-card-large">
       <div class="series-image u-full-width l-frame">
-    <img width="1200" height="960" src="{{ post.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ post.title }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
+    <img width="1200" height="960" src="{{ manga.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
   
   
   
 <h3 class="title">
-          <a href="{{ post. url }}" class="card__link">{{ post.title }}</a>
+          <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
       </h3>
 
   
       <p>
       <a
         class="cta cta--text"
-        href="{{ post.url }}"
+        href="{{ manga.url }}"
         aria-label="Read: To Your Eternity"
       >Baca</a>
     </p>
@@ -40,7 +40,7 @@
       <div class="l-cluster l-cluster--end">
       <a
   class="cta cta--with-arrow"
-  href="/tag/Anime"
+  href="/tag/Manga"
           aria-label="View More: Discover Manga"
   >
       <span>
