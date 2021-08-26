@@ -5,14 +5,13 @@
   <header>
     
 <h2 class="title title--discovery product-discovery__title l-stack">
-  <span>Latest News on K-Pop</span>
+  <span>Latest Manga Chapter</span>
 </h2>
 
       </header>
 
       <ul class="l-grid l-grid--max-3">
-        {% for post in paginator.posts %}
-        {% if post.tags contains 'Anime' %}
+        {% for manga in site.manga limit:8 %}
         <li>
 <div class="card book-card-small">
   <div class="l-sidebar">
@@ -20,16 +19,12 @@
       
       
 <h3 class="title title--card-small">
-                    <a href="{{ post.url }}" class="card__link">{{ post.title }}</a>
+                    <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
               </h3>
-
-              <p class="byline byline--small">
-                {{ post.description }}
-              </p>
       
               <ul class="tag-list l-cluster l-cluster--baseline">
             <li>
-        <span class="tag">{% for tag in post.tags limit:3 %}{{ tag }}{% endfor %}</span>
+        <span class="tag">{% for tag in manga.tags limit:3 %}{{ tag }}{% endfor %}</span>
       </li>
       </ul>
       
@@ -37,7 +32,7 @@
 
     <div class="u-reorder-first">
       <div class="l-frame product-image ">
-    <img width="300" height="300" src="{{ post.image }}" class="attachment-medium size-medium" alt="{{ post.title }}" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" decoding="async" style="--image-width: 300; --image-height: 300;" /></div>
+    <img width="300" height="300" src="{{ manga.image }}" class="attachment-medium size-medium" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" decoding="async" style="--image-width: 300; --image-height: 300;" /></div>
     </div>
   </div>
 </div>
