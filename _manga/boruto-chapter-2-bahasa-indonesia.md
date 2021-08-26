@@ -1,5 +1,5 @@
 ---
-date: 2021-08-26 20:55:00 +07:00
+date: 2021-08-26 20:60:00 +0700
 layout: manga
 title: Baca Manga Boruto Chapter 2 Bahasa Indonesia
 subtitle: Boruto Chapter 2
