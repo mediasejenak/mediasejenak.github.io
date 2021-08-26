@@ -12,8 +12,7 @@
       </header>
 
       <ul class="l-reel l-reel--4-up u-break-words">
-        {% for post in paginator.posts %}
-        {% if post.tags contains 'Anime' %}
+        {% for manga in site.manga limit:5 %}
         <li>
           <div class="card product-card-large">
       <div class="series-image u-full-width l-frame">
@@ -35,7 +34,6 @@
     </p>
   </div>
         </li>
-        {% endif %}
         {% endfor %}
       </ul>
   
