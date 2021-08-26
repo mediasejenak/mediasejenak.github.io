@@ -35,6 +35,9 @@ collections:
   manga:
     output: true
     permalink: /manga/:title
+  series:
+    output: true
+    permalink: /series/:title
 
 markdown:  kramdown
 paginate:  6
