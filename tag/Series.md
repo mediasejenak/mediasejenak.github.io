@@ -1,5 +1,5 @@
 ---
-layout: tag_page
+layout: tag_pageSeries
 title: "Manga Series"
 tag: Series
 author: Media Sejenak
