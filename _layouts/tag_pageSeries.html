@@ -21,8 +21,8 @@
 <p>{{ page.description }}</p>
   
               <ul class="l-switcher">
-              {% for manga in site.tags[page.tag] %}
-                {% include taganime.html %}
+              {% for series in site.series %}
+                {% include series-card.html %}
               {% endfor %}
               </ul>
             </div>
