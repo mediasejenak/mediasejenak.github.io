@@ -11,7 +11,7 @@ layout: default
   
               <ul class="l-switcher">
               {% for post in paginator.posts %}
-              {% if post.tag contain 'Anime' %}
+              {% if post.tags contains 'Anime' %}
                 {% include post-card.html %}
               {% endif %}
               {% endfor %}
