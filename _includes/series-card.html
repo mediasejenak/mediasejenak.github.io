@@ -1,0 +1,21 @@
+<li>
+              <div class="card l-stack news-card  ">
+  
+<h3 class="title title--card-small l-stack__split">
+    <a href="{{ series.url }}" class="card__link">
+      <span
+    class="kicker kicker--small"
+  >{% for tag in series.tags limit:1 %}{{ tag }}{% endfor %}</span>
+
+<span>{{ series.title }}</span>
+  </a>
+</h3>
+
+  <div class="u-reorder-first">
+    
+    <div class="l-frame">
+        <img width="1600" height="960" src="{{ series.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ series.title }}" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" decoding="async" style="--image-width: 1600; --image-height: 960;" />    </div>
+  </div>
+
+  </div>
+            </li>
