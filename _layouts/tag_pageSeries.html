@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US" class="u-no-scroll-x">
+{% include head.html %}
+
+<body class="home page-template-default page page-id-2">
+	<div id="page" class="site">
+			
+{% include header.html %}
+		
+<main id="primary" class="site-main">
+
+		
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+	
+	<div class="entry-content">
+
+
+<div class="news-discovery news-discovery--image-cards" data-ga-block="news_discovery">
+      
+<h2 class="title title--discovery">New from {{ page.title }}</h2>
+<p>{{ page.description }}</p>
+  
+              <ul class="l-switcher">
+              {% for manga in site.tags[page.tag] %}
+                {% include post-card.html %}
+              {% endfor %}
+              </ul>
+            </div>
+
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-2 -->
+
+</main><!-- #main -->
+	
+{% include footer.html %}
+
+<script src='https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/js/application.js?ver=1.9.4' id='media-sejenak-application-js'></script>
+<script src='https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+
+</div>
+</body>
+</html>
