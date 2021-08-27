@@ -40,7 +40,7 @@ Manganya Seru Sekali Untuk Dibaca diwaktu Senggang dan cukup worthit mengisi wak
    "url":"https://www.mediasejenak.xyz/manga/boruto-chapter-1-bahasa-indonesia",
    "name":"Boruto: Naruto Next Generation",
    "image":"https://cdn.komiku.co.id/wp-content/uploads/2190438-1.jpg",
-   "description":"Baca Manga Boruto Chapter 1 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.",
+   "description":"Baca Manga Boruto Chapter 61 Sub Indo gratis disini. Manga Boruto mengisahkan cerita dari anak sang pahlawan yaitu Uzumaki Boruto dalam menyelamatkan dunia dari klan Otsusuki dan juga Kara.",
    "aggregateRating": {
     "@type": "AggregateRating",
     "ratingCount": 39452,
