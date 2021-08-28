@@ -1,20 +1,25 @@
 <ul class="l-grid ">
 {% for manga in site.manga %}
   <li>
-    <div class="card product-card-large">
-      <div class="l-frame product-image u-full-width">
-      <img width="640" height="968" src="{{ manga.image }}" class="attachment-large size-large" alt="{{ manga.subtitle }}" loading="lazy"/>
+          <div class="card product-card-large">
+      <div class="series-image u-full-width l-frame">
+    <img width="1200" height="960" src="{{ manga.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
   
   
-      <h3 class="title">
-        <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
+  
+<h3 class="title">
+          <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
       </h3>
 
   
       <p>
-      <a class="cta cta--text" href="{{ manga.url }}">Baca</a>
-      </p>
-    </div>
-  </li>
+      <a
+        class="cta cta--text"
+        href="{{ manga.url }}"
+        aria-label="Read: To Your Eternity"
+      >Baca</a>
+    </p>
+  </div>
+        </li>
 {% endfor %}
 </ul>
