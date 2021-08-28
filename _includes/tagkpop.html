@@ -1,43 +1,28 @@
-<div
-  class="product-discovery"
-      data-ga-block="product_discovery_small"
-  >
-  <header>
-    
-<h2 class="title title--discovery product-discovery__title l-stack">
-  <span>Latest Manga Chapter</span>
-</h2>
+<div class="post-39928 page type-page status-publish hentry">		
+  <div class="entry-content">
+    <div class="filters">
+<div class="filters__results">
+<ul class="l-grid ">
+{% for manga in site.manga %}
+  <li>
+    <div class="card product-card-large">
+      <div class="l-frame product-image u-full-width">
+      <img width="640" height="968" src="{{ manga.image }}" class="attachment-large size-large" alt="{{ manga.subtitle }}" loading="lazy"/>
+  
+  
+      <h3 class="title">
+        <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
+      </h3>
 
-      </header>
-
-      <ul class="l-grid l-grid--max-3">
-        {% for manga in site.manga %}
-        <li>
-<div class="card book-card-small">
-  <div class="l-sidebar">
-    <div class="l-sidebar__main">
-      
-      
-<h3 class="title title--card-small">
-                    <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
-              </h3>
-      
-              <ul class="tag-list l-cluster l-cluster--baseline">
-            <li>
-        <span class="tag">{% for tag in manga.tags limit:3 %}{{ tag }}{% endfor %}</span>
-      </li>
-      </ul>
-      
-          </div>
-
-    <div class="u-reorder-first">
-      <div class="l-frame product-image ">
-    <img width="300" height="300" src="{{ manga.image }}" class="attachment-medium size-medium" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" decoding="async" style="--image-width: 300; --image-height: 300;" /></div>
+  
+      <p>
+      <a class="cta cta--text" href="{{ manga.url }}">Baca</a>
+      </p>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+</div>
     </div>
   </div>
 </div>
-        </li>
-        {% endfor %}
-      </ul>
-  
-  </div>
