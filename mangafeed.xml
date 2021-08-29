@@ -28,17 +28,5 @@ layout: null
       </item>
     {% endfor %}
 
-    {% for series in site.series %}
-      <item>
-        <title><![CDATA[ {{ series.title | xml_escape }} ]]></title>
-        <description><![CDATA[ {{ series.description | xml_escape }} ]]></description>
-        <enclosure length="25000" type="image/jpeg" url="{{ series.image }}"/>
-        <pubDate>{{ series.date | date_to_rfc822 | date: '%d %b %Y' }}</pubDate>
-        <content:encoded><![CDATA[ {{ series.description | xml_escape }} ]]></content:encoded>
-        <link>{{ series.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ series.url | prepend: site.baseurl | prepend: site.url }}</guid>
-      </item>
-    {% endfor %}
-
   </channel>
 </rss>
