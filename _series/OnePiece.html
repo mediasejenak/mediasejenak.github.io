@@ -1,0 +1,95 @@
+---
+date: 2021-08-29 19:42:00 +07:00
+layout: manga
+title: Manga One Piece
+subtitle: One Piece
+description: Baca Manga One Piece Sub Indo gratis hanya di Media Sejenak.
+author: Eiichiro Oda
+image: https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/images/20210828_021457_0000.jpg
+cover: https://cdn.jsdelivr.net/gh/mediasejenak/mediasejenak.github.io@main/images/20210828_021457_0000.jpg
+tags: [Series]
+keyword: Manga One Piece, Baca Manga One Piece, Manga One Piece Sub Indo, Manga One Piece Bahasa Indonesia
+---
+<h2>Manga Info</h2>
+<style>
+	.demo {
+		border:1px solid #000000;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #000000;
+		padding:5px;
+		background:#FFFFFF;
+	}
+	.demo td {
+		border:1px solid #000000;
+		padding:5px;
+	}
+</style>
+<table class="demo">
+	<tbody>
+	<tr>
+		<td>&nbsp;Judul</td>
+		<td>&nbsp;{{ page.title }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Author</td>
+		<td>&nbsp;{{ page.author }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Illustrator</td>
+		<td>&nbsp;{{ page.author }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Penerbit</td>
+		<td>&nbsp;Shueisha</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Status</td>
+		<td>&nbsp;Ongoing</td>
+	</tr>
+        <tr>
+		<td>&nbsp;Rating on My Anime List</td>
+		<td>&nbsp;9.1</td>
+	</tr>
+        <tr>
+		<td>&nbsp;Genre</td>
+		<td>&nbsp;Action, Super Power, Adventure</td>
+	</tr>
+	<tbody>
+</table>
+
+<h2>List Chapter</h2>
+
+<ul>
+{% for manga in site.manga %}
+  {% if manga.tags contains "OnePiece" %}
+    <li><a href="{{ manga.url }}">{{ manga.subtitle }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Sinopsis</h2>
+<p>ONE PIECE adalah sebuah Manga dan Anime yang menceritakan tentang petualangan sekelompok bajak laut dalam mencari harta karun legendaris, One Piece.</p>
+
+<p>Keyword Terkait: {{ page.keyword }}</p>
+
+<script type="application/ld+json">
+{
+   "@context":"https://schema.org",
+   "@type":"ComicSeries",
+   "url":"{{ page.url }}",
+   "name":"{{ page.title }}",
+   "image":"{{ page.image }}",
+   "description":"{{ page.description }}",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 39452,
+    "bestRating": 10,
+    "worstRating": 1,
+    "ratingValue": 9.1 
+    }
+  }
+}
+</script>
