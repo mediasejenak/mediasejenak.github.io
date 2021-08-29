@@ -1,0 +1,101 @@
+---
+date: 2021-08-29 21:07:00 +07:00
+layout: manga
+title: Manga Tokyo Revengers
+subtitle: Tokyo Revengers
+description: Baca Manga Tokyo Revengers Sub Indo gratis hanya di Media Sejenak.
+author: Ken Wakui
+image: https://res.cloudinary.com/mediasejenak/image/upload/v1629378583/TokyoRevengers_022_cover-1024x1536_1_rzv80b.jpg
+cover: https://res.cloudinary.com/mediasejenak/image/upload/v1629378583/TokyoRevengers_022_cover-1024x1536_1_rzv80b.jpg
+tags: [Series]
+keyword: Manga Tokyo Revengers, Baca Manga Tokyo Revengers, Manga Tokyo Revengers Sub Indo, Manga Tokyo Revengers Bahasa Indonesia
+---
+<h2>Manga Info</h2>
+<style>
+	.demo {
+		border:1px solid #000000;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #000000;
+		padding:5px;
+		background:#FFFFFF;
+	}
+	.demo td {
+		border:1px solid #000000;
+		padding:5px;
+	}
+</style>
+<table class="demo">
+	<tbody>
+	<tr>
+		<td>&nbsp;Judul</td>
+		<td>&nbsp;{{ page.subtitle }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Author</td>
+		<td>&nbsp;{{ page.author }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Illustrator</td>
+		<td>&nbsp;{{ page.author }}</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Penerbit</td>
+		<td>&nbsp;Shueisha</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Status</td>
+		<td>&nbsp;Ongoing</td>
+	</tr>
+        <tr>
+		<td>&nbsp;Rating</td>
+		<td>&nbsp;9.2</td>
+	</tr>
+        <tr>
+		<td>&nbsp;Genre</td>
+		<td>&nbsp;Action, Shonen, Super Power, Adventure</td>
+	</tr>
+	<tbody>
+</table>
+
+<h2>List Chapter</h2>
+
+<ul>
+{% for manga in site.manga %}
+  {% if manga.tags contains "TokyoRevengers" %}
+    <li><a href="{{ manga.url }}">{{ manga.subtitle }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Sinopsis</h2>
+<p>Tokyo Revengers (Jepang: Hepburn: Tōkyō Manji Ribenjāzu) adalah serial manga shonen Jepang yang ditulis dan diilustrasikan oleh Ken Wakui. Manga ini telah diterbitkan di majalah Weekly Shonen Kodansha sejak Maret 2017 dan dikelompokkan menjadi tujuh belas volume Tankōbon.</p>
+
+<h2>Plot</h2>
+<p>Takemichi adalah pria pengangguran berusia 26 tahun. Dia baru mengetahui bahwa gadis yang menjadi pacarnya di sekolah menengah, satu-satunya gadis yang pernah dia kencani dalam hidupnya, meninggal karena sekelompok penjahat. Takemichi berjanji untuk mengubah masa depan dan menyelamatkan gadis itu. Untuk melakukan ini, ia bertujuan untuk naik ke puncak geng kriminal paling brutal di wilayah Kanto.</p>
+
+<h2>Media</h2>
+<p>Tokyo Revengers adalah serial manga yang ditulis dan diilustrasikan oleh Ken Wakui. Manga ini dimulai pada edisi ke-13 Weekly Shonen Magazine, diterbitkan oleh Kodansha pada 1 Maret 2017. Volume pertama diterbitkan oleh Kodansha pada 17 Mei 2017. Publikasi digital dalam bahasa Inggris di bawah cetakan Kodansha Comics miliknya. Pada Juni 2020, diumumkan bahwa Tokyo Revengers akan diubah menjadi serial anime dan tayang perdana pada tahun 2021.</p>
+
+<p>Keyword Terkait: {{ page.keyword }}</p>
+
+<script type="application/ld+json">
+{
+   "@context":"https://schema.org",
+   "@type":"ComicSeries",
+   "url":"{{ page.url }}",
+   "name":"{{ page.title }}",
+   "image":"{{ page.image }}",
+   "description":"{{ page.description }}",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": 49452,
+    "bestRating": 10,
+    "worstRating": 1,
+    "ratingValue": 9.2 
+    }
+  }
+}
+</script>
