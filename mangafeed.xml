@@ -10,21 +10,19 @@ layout: null
     <atom:link href="{{ "/mangafeed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <image>
-    <title>{{ site.title | xml_escape }}</title>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <url>{{ site.logo }}</url>
-    </image>
+    <language>id</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
 
     {% for manga in site.manga %}
       <item>
         <title><![CDATA[ {{ manga.title | xml_escape }} ]]></title>
+        <link>{{ manga.url | prepend: site.url }}</link>
         <description><![CDATA[ {{ manga.description | xml_escape }} ]]></description>
-        <enclosure length="25000" type="image/jpeg" url="{{ manga.image }}"/>
-        <pubDate>{{ manga.date | date_to_rfc822 | date: '%d %b %Y' }}</pubDate>
-        <content:encoded><![CDATA[ {{ manga.description | xml_escape }} ]]></content:encoded>
-        <link>{{ manga.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ manga.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <category><![CDATA[{{ manga.tags }}]]></category>
+        <pubDate>{{ manga.date | date_to_rfc822 }}</pubDate>
+        <content:encoded><![CDATA[ {{ manga.content | xml_escape }} ]]></content:encoded>
+        <guid isPermaLink="true">{{ manga.url | prepend: site.url }}</guid>
       </item>
     {% endfor %}
 
