@@ -1,6 +1,6 @@
 ---
 date: 2021-08-29 20:04:00 +07:00
-layout: post
+layout: manga
 title: Baca Manga Tokyo Revengers Chapter 219 Bahasa Indonesia
 subtitle: Tokyo Revengers Chapter 219
 author: Ken Wakui
