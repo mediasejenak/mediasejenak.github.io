@@ -1,0 +1,32 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <image>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <url>{{ site.logo }}</url>
+    </image>
+   
+    {% for series in site.series %}
+      <item>
+        <title><![CDATA[ {{ series.title | xml_escape }} ]]></title>
+        <description><![CDATA[ {{ series.description | xml_escape }} ]]></description>
+        <enclosure length="25000" type="image/jpeg" url="{{ series.image }}"/>
+        <pubDate>{{ series.date | date_to_rfc822 | date: '%d %b %Y' }}</pubDate>
+        <content:encoded><![CDATA[ {{ series.description | xml_escape }} ]]></content:encoded>
+        <link>{{ series.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ series.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>
