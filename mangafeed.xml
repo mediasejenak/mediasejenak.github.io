@@ -19,7 +19,7 @@ layout: null
         <title><![CDATA[ {{ manga.title | xml_escape }} ]]></title>
         <link>{{ manga.url | prepend: site.url }}</link>
         <description><![CDATA[ {{ manga.description | xml_escape }} ]]></description>
-        <category><![CDATA[{{ manga.tags }}]]></category>
+        <category><![CDATA[ {{ manga.tags }} ]]></category>
         <pubDate>{{ manga.date | date_to_rfc822 }}</pubDate>
         <content:encoded><![CDATA[ {{ manga.description | xml_escape }} ]]></content:encoded>
         <guid isPermaLink="true">{{ manga.url | prepend: site.url }}</guid>
