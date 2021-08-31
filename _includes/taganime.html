@@ -12,6 +12,7 @@
       </header>
 
       <ul class="l-reel l-reel--4-up u-break-words">
+        {% assign series = site.series | sort: 'date' | reverse %}
         {% for series in site.series limit:5 %}
         <li>
           <div class="card product-card-large">
