@@ -1,6 +1,7 @@
 <h2 id="rilis-terbaru">Rilis Terbaru</h2>
 <ul class="l-grid ">
-{% for manga in site.manga %}
+{% assign sorted = site.manga | sort: 'date' | reverse  %}
+{% for manga in sorted limit: 12 %}
   <li>
           <div class="card product-card-large">
       <div class="series-image u-full-width l-frame">
