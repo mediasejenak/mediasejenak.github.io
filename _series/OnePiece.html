@@ -70,6 +70,36 @@ keyword: Manga One Piece, Baca Manga One Piece, Manga One Piece Sub Indo, Manga 
 {% endfor %}
 </ul>
 
+<h2 id="rilis-terbaru">Rilis Terbaru</h2>
+<ul class="l-grid ">
+{% assign sorted = site.manga | sort: 'date' | reverse  %}
+{% for manga in sorted limit: 12 %}
+  {% if manga.tags contains "OnePiece" %}
+  <li>
+          <div class="card product-card-large">
+      <div class="series-image u-full-width l-frame">
+    <img width="1200" height="960" src="{{ manga.image }}" class="attachment-post-thumbnail size-post-thumbnail" alt="{{ manga.subtitle }}" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" decoding="async" style="--image-width: 1200; --image-height: 960;" /></div>
+  
+  
+  
+<h3 class="title">
+          <a href="{{ manga.url }}" class="card__link">{{ manga.subtitle }}</a>
+      </h3>
+
+  
+      <p>
+      <a
+        class="cta cta--text"
+        href="{{ manga.url }}"
+        aria-label="Read: To Your Eternity"
+      >Baca</a>
+    </p>
+  </div>
+        </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 <h2>Sinopsis</h2>
 <p>ONE PIECE adalah sebuah Manga dan Anime yang menceritakan tentang petualangan sekelompok bajak laut dalam mencari harta karun legendaris, One Piece.</p>
 
