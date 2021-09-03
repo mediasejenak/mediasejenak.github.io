@@ -20,9 +20,7 @@
 <h2 class="title title--discovery">New from {{ page.title }}</h2>
 <p>{{ page.description }}</p>
 
-{% for series in site.series %}
-  {% include series-card.html %}
-{% endfor %}
+{% include series-card.html %}
 
 </div>
 
