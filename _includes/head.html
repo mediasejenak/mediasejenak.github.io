@@ -22,7 +22,7 @@
 	
 	<meta name='description' content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name='keywords' content="{% if page.keyword %}{{ page.keyword }}{% else %}{{ site.keyword }}{% endif %}">
-  <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel='canonical' href="{% if page.kanonis %}{{ page.kanonis }}{% else %}{{ site.url }}{% endif %}"/>
   {% if page.amp %}
   <link rel="amphtml" href="{{site.url}}/amp{{ page.url }}">
   {% endif %}
@@ -33,7 +33,6 @@
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	
 	<title>{% if page.title %}{{ page.title }} - Media Sejenak{% else %}{{ site.title }}{% endif %}</title>
-	<link rel="canonical" href="{{ site.url }}" />
 	<meta name="twitter:site" content="@mediasejenak" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
