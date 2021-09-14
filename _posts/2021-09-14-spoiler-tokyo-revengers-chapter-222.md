@@ -4,8 +4,9 @@ layout: post
 title: Update!! Spoiler Baca Tokyo Revengers Chapter 222, Inui Penghianat Yang Membuat Draken Tewas?
 author: ilham
 artikel: true
-kanonis: https://www.kompasiana.com/ppti5ilhammaulanapratama3691/613fe03631a2872432215a63/spoiler-baca-tokyo-revengers-chapter-222-inupi-penghianat-yang-membuat-draken-tewas
-redirect_to: https://www.kompasiana.com/ppti5ilhammaulanapratama3691/613fe03631a2872432215a63/spoiler-baca-tokyo-revengers-chapter-222-inupi-penghianat-yang-membuat-draken-tewas
+kanonis: https://www.kompasiana.com/ppti5ilhammaulanapratama3691/6140e29c53f9cd41316782a2/baca-tokyo-revengers-chapter-222-ucapan-terakhir-draken-kepada-takemichi-dan-mikey
+redirect_to: 
+  - https://www.kompasiana.com/ppti5ilhammaulanapratama3691/6140e29c53f9cd41316782a2/baca-tokyo-revengers-chapter-222-ucapan-terakhir-draken-kepada-takemichi-dan-mikey
 description: Teori dan Spoiler Tokyo Revengers Chapter 222 akhirnya keluar, akan membahas kemanakah Inui yang saat itu melaporkan kepada Draken kalau Takemichi akan diserang, apakah dia penghianat?.
 tags: [Anime]
 keyword: Tokyo Revengers, Spoiler Manga Tokyo Revengers Chapter 222, Manga Tokyo Revengers Chapter 222 bahasa indonesia
