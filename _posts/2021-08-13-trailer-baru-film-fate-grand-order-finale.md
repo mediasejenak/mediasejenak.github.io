@@ -3,6 +3,8 @@ date: 2021-08-13 11:00:00 +07:00
 layout: post
 title: Trailer Terbaru Film Fate/Grand Order Finale Singularity Telah Terbit
 author: ilham
+redirect_to: 
+  - https://fandomnesia.github.io/boruto-houki-penerus-kakashi/
 news: true
 amp: true
 description: Trailer Film Fate/Grand Order Final Singularity The Temple of Time Solomon telah dirilis. Lihat Cuplikannya disini.
