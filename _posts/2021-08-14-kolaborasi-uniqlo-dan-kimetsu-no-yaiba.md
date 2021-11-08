@@ -3,6 +3,8 @@ date: 2021-08-14 20:57:00 +07:00
 layout: post
 title: Kolaborasi Uniqlo dengan Demon Slayer kembali rilis akhir agustus
 author: ilham
+redirect_to: 
+  - https://fandomnesia.github.io/boruto-houki-penerus-kakashi/
 news: true
 amp: true
 description: Kolaborasi dari Uniqlo dengan Demon Slayer Kimetsu No Yaiba kembali rilis akhir agustus nanti. Desain baju terbaru dari kolaborasi dapat dilihat disini.
