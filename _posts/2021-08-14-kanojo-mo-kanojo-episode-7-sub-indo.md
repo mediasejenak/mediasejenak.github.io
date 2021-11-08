@@ -3,6 +3,8 @@ date: 2021-08-14 12:35:00 +07:00
 layout: post
 title: Recap & Link Nonton Kanojo mo Kanojo Episode 7, Membangkitkan Hawa Nafsu Naoya
 author: ilham
+redirect_to: 
+  - https://fandomnesia.github.io/boruto-houki-penerus-kakashi/
 news: true
 amp: true
 description: Recap dan Link Nonton Kanojo mo Kanojo Episode 7 Sub Indo, Saki saki dan Nagisa berlomba membangkitkan hawa nafsu seksual Naoya.
