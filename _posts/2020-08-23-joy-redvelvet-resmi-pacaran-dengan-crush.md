@@ -4,6 +4,8 @@ layout: post
 title: Joy Red Velvet Resmi Berpacaran Dengan Crush, Simak Kronologinya
 author: ilham
 news: true
+redirect_to: 
+  - https://fandomnesia.github.io/boruto-houki-penerus-kakashi/
 amp: true
 description: Joy Red Velvet Resmi Jalin Hubungan Dengan Crush, Simak kronologi mereka yang mulai bertemu sebagai senior dan junior.
 tags: [K-Pop]
