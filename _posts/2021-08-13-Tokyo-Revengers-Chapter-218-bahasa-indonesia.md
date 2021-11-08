@@ -3,6 +3,8 @@ date: 2021-08-13 16:48:00 +07:00
 layout: post
 title: Recap & Link Baca Tokyo Revengers Chapter 218, Mikey Menampakan Diri?
 author: ilham
+redirect_to: 
+  - https://fandomnesia.github.io/boruto-houki-penerus-kakashi/
 artikel: true
 description: Recap dan Link Baca Tokyo Revengers Chapter 218 bahasa indonesia, Mikey akhirnya menampakan diri didepan Takemichi dan Draken?
 tags: [Anime]
